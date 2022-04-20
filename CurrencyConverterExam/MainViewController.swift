@@ -43,6 +43,9 @@ class MainViewController: UIViewController {
     
     // MARK: - UI Elements
     
+    var activityIndicator = ActivityIndicator()
+    
+    
     // headline labels
     let myBalanceLabel = Label()
     let currencyExchangeLabel = Label()
