@@ -16,6 +16,31 @@ class MainViewController: UIViewController {
     let currencies = [Currency.EUR.getStringValue(), Currency.USD.getStringValue(), Currency.JPY.getStringValue()]
     
     
+    
+    var eurAmountValue: Double = 1000.00 {
+        didSet {
+            eurLabel.text = String(format: "%.2f", eurAmountValue)
+        }
+    }
+    var usdAmountValue: Double = 1000.00 {
+        didSet {
+            usdLabel.text = String(format: "%.2f", usdAmountValue)
+        }
+    }
+    var jpyAmountValue: Double = 1000.00 {
+        didSet {
+            jpyLabel.text = String(format: "%.2f", jpyAmountValue)
+        }
+    }
+    
+    var cellAmountValue: Double = 100.00 {
+        didSet {
+            sellTextField.text = String(format: "%.2f", cellAmountValue)
+        }
+    }
+    
+    
+    
     // MARK: - UI Elements
     
     // headline labels
