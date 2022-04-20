@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,6 +21,9 @@
 		3EA5B7E72810267200507B2C /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7E62810267200507B2C /* Button.swift */; };
 		3EA5B7E92810268B00507B2C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7E82810268B00507B2C /* ImageView.swift */; };
 		3EA5B7EC281026C200507B2C /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7EB281026C200507B2C /* TextField.swift */; };
+		3EA5B7EF281035CF00507B2C /* MainVCLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7EE281035CF00507B2C /* MainVCLifeCycle.swift */; };
+		3EA5B7F12810368800507B2C /* MainVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7F02810368800507B2C /* MainVCView.swift */; };
+		3EA5B7F32810399400507B2C /* MainVCViewMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7F22810399400507B2C /* MainVCViewMethods.swift */; };
 		AF05FC404FE80B2D08C7721A /* Pods_CurrencyConverterExam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57F550E1A3D253C3AB9AD7A /* Pods_CurrencyConverterExam.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +46,9 @@
 		3EA5B7E62810267200507B2C /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		3EA5B7E82810268B00507B2C /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		3EA5B7EB281026C200507B2C /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		3EA5B7EE281035CF00507B2C /* MainVCLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCLifeCycle.swift; sourceTree = "<group>"; };
+		3EA5B7F02810368800507B2C /* MainVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCView.swift; sourceTree = "<group>"; };
+		3EA5B7F22810399400507B2C /* MainVCViewMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCViewMethods.swift; sourceTree = "<group>"; };
 		B57F550E1A3D253C3AB9AD7A /* Pods_CurrencyConverterExam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurrencyConverterExam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -90,6 +96,9 @@
 				3EA5B7C42810096800507B2C /* AppDelegate.swift */,
 				3EA5B7C62810096800507B2C /* SceneDelegate.swift */,
 				3EA5B7C82810096800507B2C /* MainViewController.swift */,
+				3EA5B7EE281035CF00507B2C /* MainVCLifeCycle.swift */,
+				3EA5B7F02810368800507B2C /* MainVCView.swift */,
+				3EA5B7F22810399400507B2C /* MainVCViewMethods.swift */,
 				3EA5B7ED281026DB00507B2C /* Helpers */,
 				3EA5B7CD2810096B00507B2C /* Assets.xcassets */,
 				3EA5B7CF2810096B00507B2C /* LaunchScreen.storyboard */,
@@ -144,7 +153,6 @@
 				121B6E875D2FA9A5DE23DACA /* Pods-CurrencyConverterExam.debug.xcconfig */,
 				00D492E3F277F87B3CDB7200 /* Pods-CurrencyConverterExam.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -265,13 +273,16 @@
 				3EA5B7DF2810258A00507B2C /* Currency.swift in Sources */,
 				3EA5B7DB28100E7A00507B2C /* FontExtension.swift in Sources */,
 				3EA5B7EC281026C200507B2C /* TextField.swift in Sources */,
+				3EA5B7F12810368800507B2C /* MainVCView.swift in Sources */,
 				3EA5B7C92810096800507B2C /* MainViewController.swift in Sources */,
 				3EA5B7D928100E4600507B2C /* AppFontName.swift in Sources */,
 				3EA5B7E92810268B00507B2C /* ImageView.swift in Sources */,
 				3EA5B7E32810264500507B2C /* Label.swift in Sources */,
 				3EA5B7E1281025EE00507B2C /* Constants.swift in Sources */,
 				3EA5B7E72810267200507B2C /* Button.swift in Sources */,
+				3EA5B7EF281035CF00507B2C /* MainVCLifeCycle.swift in Sources */,
 				3EA5B7C52810096800507B2C /* AppDelegate.swift in Sources */,
+				3EA5B7F32810399400507B2C /* MainVCViewMethods.swift in Sources */,
 				3EA5B7C72810096800507B2C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
