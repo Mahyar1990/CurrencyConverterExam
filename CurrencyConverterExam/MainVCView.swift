@@ -6,11 +6,13 @@
 //
 
 import UIKit
+import DropDown
 
 extension MainViewController {
     
     func setupView() {
         setupObjectsStyles()
+        setupDropDownMenu()
         setupViewLayouts()
     }
     
@@ -109,6 +111,29 @@ extension MainViewController {
                                action: #selector(submitButtonDidSelected),
                                for: .touchUpInside)
     }
+    
+    // MARK: setup DropDown Menu
+    private func setupDropDownMenu() {
+        DropDown.setupDefaultAppearance()
+        
+        setupDropDownMenu(withDropDown: sellCurrencyDropDown, andButton: sellCurrencyButton)
+        setupDropDownMenu(withDropDown: recieveCurrencyDropDown, andButton: recieveCurrencyButton)
+    }
+    
+    private func setupDropDownMenu(withDropDown dropDown: DropDown, andButton button: Button) {
+        dropDown.dataSource = currencies
+        
+        dropDown.dismissMode = .onTap
+        dropDown.direction = .any
+        
+        dropDown.anchorView = button
+        dropDown.bottomOffset = CGPoint(x: 0,
+                                        y: button.bounds.height + 32)
+        dropDown.selectionAction = { (index, item) in
+            button.setTitle(item, for: .normal)
+        }
+    }
+    
     
     
     // MARK: - setup View Layouts
