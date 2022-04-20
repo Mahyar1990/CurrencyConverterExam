@@ -19,7 +19,7 @@ class Networking: NSObject {
         
         baseURL = SERVICE_ADDRESSES.address.getStringValue()
         baseURL += SERVICES_PATH.exchange.getStringValue()
-        baseURL += amount + "-" + fromCurrency
+        baseURL += "/" + amount + "-" + fromCurrency
         baseURL += "/" + toCurrency
         baseURL += SERVICES_PATH.latest.getStringValue()
         
@@ -40,18 +40,6 @@ class Networking: NSObject {
                 }
             }.resume()
         }
-        
-//        URLSession.shared.dataTask(with: url) { (data, resp, err) in
-//            // check response status and err
-//            guard let data = data else { return }
-//            do {
-//                let responseObject = try JSONDecoder().decode(ExchangeResponse.self, from: data)
-//                serverResponse(responseObject, nil)
-//            } catch {
-//                print("----  Faild to decode \(error)")
-//                serverResponse(nil, "Faild to decode \(error)")
-//            }
-//        }.resume()
         
     }
     

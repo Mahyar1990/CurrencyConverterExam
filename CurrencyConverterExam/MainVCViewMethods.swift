@@ -19,6 +19,14 @@ extension MainViewController {
     
     @objc func submitButtonDidSelected() {
         // call network
+        if let value = sellTextField.text,
+           let from = sellCurrencyButton.titleLabel?.text,
+           let to = recieveCurrencyButton.titleLabel?.text {
+            
+            exchangeServiceCall(amount:         value,
+                                fromCurrency:   from,
+                                toCurrency:     to)
+        }
     }
     
     
@@ -27,7 +35,7 @@ extension MainViewController {
                    okActionText: String?) {
         stopIndicator()
         let alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: okActionText ?? "OK", style: .default, handler: { action in
+        alert.addAction(UIAlertAction(title: okActionText ?? "Done", style: .default, handler: { action in
             switch action.style{
             case .default: print("default")
             case .cancel: print("cancel")
