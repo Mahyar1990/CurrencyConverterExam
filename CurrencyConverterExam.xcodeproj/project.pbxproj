@@ -24,6 +24,7 @@
 		3EA5B7EF281035CF00507B2C /* MainVCLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7EE281035CF00507B2C /* MainVCLifeCycle.swift */; };
 		3EA5B7F12810368800507B2C /* MainVCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7F02810368800507B2C /* MainVCView.swift */; };
 		3EA5B7F32810399400507B2C /* MainVCViewMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7F22810399400507B2C /* MainVCViewMethods.swift */; };
+		3EA5B7F528103BFB00507B2C /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7F428103BFB00507B2C /* Images.swift */; };
 		AF05FC404FE80B2D08C7721A /* Pods_CurrencyConverterExam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57F550E1A3D253C3AB9AD7A /* Pods_CurrencyConverterExam.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		3EA5B7EE281035CF00507B2C /* MainVCLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCLifeCycle.swift; sourceTree = "<group>"; };
 		3EA5B7F02810368800507B2C /* MainVCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCView.swift; sourceTree = "<group>"; };
 		3EA5B7F22810399400507B2C /* MainVCViewMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCViewMethods.swift; sourceTree = "<group>"; };
+		3EA5B7F428103BFB00507B2C /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
 		B57F550E1A3D253C3AB9AD7A /* Pods_CurrencyConverterExam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurrencyConverterExam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -121,6 +123,7 @@
 				3EA5B7D828100E4600507B2C /* AppFontName.swift */,
 				3EA5B7DE2810258A00507B2C /* Currency.swift */,
 				3EA5B7E0281025EE00507B2C /* Constants.swift */,
+				3EA5B7F428103BFB00507B2C /* Images.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 				3EA5B7E72810267200507B2C /* Button.swift in Sources */,
 				3EA5B7EF281035CF00507B2C /* MainVCLifeCycle.swift in Sources */,
 				3EA5B7C52810096800507B2C /* AppDelegate.swift in Sources */,
+				3EA5B7F528103BFB00507B2C /* Images.swift in Sources */,
 				3EA5B7F32810399400507B2C /* MainVCViewMethods.swift in Sources */,
 				3EA5B7C72810096800507B2C /* SceneDelegate.swift in Sources */,
 			);

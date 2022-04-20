@@ -13,6 +13,8 @@ class MainViewController: UIViewController {
     // global access to Constants
     let constants = Constants()
     
+    let currencies = [Currency.EUR.getStringValue(), Currency.USD.getStringValue(), Currency.JPY.getStringValue()]
+    
     
     // MARK: - UI Elements
     
@@ -26,7 +28,7 @@ class MainViewController: UIViewController {
     let jpyLabel = Label()
     
     // sell section ui items
-    let sellImageView = ImageView(image: UIImage(named: "uploading"))
+    let sellImageView = ImageView(image: UIImage(named: Icons.upload.getStringValue()))
     let sellLabel = Label()
     let sellTextField = TextField()
     let sellCurrencyButton = Button()
@@ -34,7 +36,7 @@ class MainViewController: UIViewController {
     let devider1 = View()
     
     // reciece section ui items
-    let recieveImageView = ImageView(image: UIImage(named: "download"))
+    let recieveImageView = ImageView(image: UIImage(named: Icons.download.getStringValue()))
     let recieveLabel = Label()
     let recieveAmountLabel = Label()
     let recieveCurrencyButton = Button()
