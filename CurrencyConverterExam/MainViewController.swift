@@ -46,5 +46,9 @@ class MainViewController: UIViewController {
     // do exchange button
     let submitButton = Button()
     
+    
+    
+    var bottomButtonConstraint = NSLayoutConstraint()
+    
 }
 

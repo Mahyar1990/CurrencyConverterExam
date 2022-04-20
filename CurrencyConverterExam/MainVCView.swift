@@ -230,7 +230,8 @@ extension MainViewController {
     private func addSubmitButtonToView() {
         view.addSubview(submitButton)
         
-        submitButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -24).isActive = true
+        bottomButtonConstraint = submitButton.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor, constant: -24)
+        bottomButtonConstraint.isActive = true
         submitButton.rightAnchor.constraint(equalTo: view.safeAreaLayoutGuide.rightAnchor, constant: -24).isActive = true
         submitButton.leftAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leftAnchor, constant: 24).isActive = true
         submitButton.heightAnchor.constraint(equalToConstant: 44).isActive = true
