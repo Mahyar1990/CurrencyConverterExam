@@ -16,6 +16,11 @@
 		3EA5B7DB28100E7A00507B2C /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7DA28100E7A00507B2C /* FontExtension.swift */; };
 		3EA5B7DF2810258A00507B2C /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7DE2810258A00507B2C /* Currency.swift */; };
 		3EA5B7E1281025EE00507B2C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7E0281025EE00507B2C /* Constants.swift */; };
+		3EA5B7E32810264500507B2C /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7E22810264500507B2C /* Label.swift */; };
+		3EA5B7E52810265E00507B2C /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7E42810265E00507B2C /* View.swift */; };
+		3EA5B7E72810267200507B2C /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7E62810267200507B2C /* Button.swift */; };
+		3EA5B7E92810268B00507B2C /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7E82810268B00507B2C /* ImageView.swift */; };
+		3EA5B7EC281026C200507B2C /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B7EB281026C200507B2C /* TextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		3EA5B7DA28100E7A00507B2C /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 		3EA5B7DE2810258A00507B2C /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		3EA5B7E0281025EE00507B2C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3EA5B7E22810264500507B2C /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		3EA5B7E42810265E00507B2C /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		3EA5B7E62810267200507B2C /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		3EA5B7E82810268B00507B2C /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		3EA5B7EB281026C200507B2C /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +75,7 @@
 				3EA5B7C42810096800507B2C /* AppDelegate.swift */,
 				3EA5B7C62810096800507B2C /* SceneDelegate.swift */,
 				3EA5B7C82810096800507B2C /* MainViewController.swift */,
-				3EA5B7DD28100ECC00507B2C /* Constants */,
-				3EA5B7DC28100EBC00507B2C /* Extensions */,
+				3EA5B7ED281026DB00507B2C /* Helpers */,
 				3EA5B7CD2810096B00507B2C /* Assets.xcassets */,
 				3EA5B7CF2810096B00507B2C /* LaunchScreen.storyboard */,
 				3EA5B7D22810096B00507B2C /* Info.plist */,
@@ -90,6 +99,28 @@
 				3EA5B7E0281025EE00507B2C /* Constants.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		3EA5B7EA281026B000507B2C /* CustomObjects */ = {
+			isa = PBXGroup;
+			children = (
+				3EA5B7E22810264500507B2C /* Label.swift */,
+				3EA5B7E42810265E00507B2C /* View.swift */,
+				3EA5B7E62810267200507B2C /* Button.swift */,
+				3EA5B7E82810268B00507B2C /* ImageView.swift */,
+				3EA5B7EB281026C200507B2C /* TextField.swift */,
+			);
+			path = CustomObjects;
+			sourceTree = "<group>";
+		};
+		3EA5B7ED281026DB00507B2C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3EA5B7DD28100ECC00507B2C /* Constants */,
+				3EA5B7DC28100EBC00507B2C /* Extensions */,
+				3EA5B7EA281026B000507B2C /* CustomObjects */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,11 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA5B7E52810265E00507B2C /* View.swift in Sources */,
 				3EA5B7DF2810258A00507B2C /* Currency.swift in Sources */,
 				3EA5B7DB28100E7A00507B2C /* FontExtension.swift in Sources */,
+				3EA5B7EC281026C200507B2C /* TextField.swift in Sources */,
 				3EA5B7C92810096800507B2C /* MainViewController.swift in Sources */,
 				3EA5B7D928100E4600507B2C /* AppFontName.swift in Sources */,
+				3EA5B7E92810268B00507B2C /* ImageView.swift in Sources */,
+				3EA5B7E32810264500507B2C /* Label.swift in Sources */,
 				3EA5B7E1281025EE00507B2C /* Constants.swift in Sources */,
+				3EA5B7E72810267200507B2C /* Button.swift in Sources */,
 				3EA5B7C52810096800507B2C /* AppDelegate.swift in Sources */,
 				3EA5B7C72810096800507B2C /* SceneDelegate.swift in Sources */,
 			);
