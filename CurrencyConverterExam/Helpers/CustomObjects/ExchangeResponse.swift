@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct ExchangeResponse: Decodable {
+    let amount: String
+    let currency: String
+}
+

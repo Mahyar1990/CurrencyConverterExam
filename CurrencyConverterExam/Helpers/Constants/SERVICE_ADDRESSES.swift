@@ -6,3 +6,14 @@
 //
 
 import Foundation
+
+enum SERVICE_ADDRESSES {
+    case address
+    
+    func getStringValue() -> String {
+        switch self {
+        case .address: return "http://api.evp.lt"
+        }
+    }
+}
+

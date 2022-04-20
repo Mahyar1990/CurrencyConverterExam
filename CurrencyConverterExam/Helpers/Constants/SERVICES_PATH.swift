@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+enum SERVICES_PATH {
+    case exchange
+    case latest
+    
+    func getStringValue() -> String {
+        switch self {
+        case .exchange: return "/currency/commercial/exchange"
+        case .latest:   return "/latest"
+        }
+    }
+}
+
