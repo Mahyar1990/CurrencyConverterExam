@@ -7,5 +7,6 @@ target 'CurrencyConverterExam' do
 
   # Pods for CurrencyConverterExam
   pod 'DropDown'
+  pod 'MaterialComponents'
 
 end
