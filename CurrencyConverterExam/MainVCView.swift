@@ -132,6 +132,7 @@ extension MainViewController {
                                         y: button.bounds.height + 32)
         dropDown.selectionAction = { (index, item) in
             button.setTitle(item, for: .normal)
+            self.recieveAmountLabel.text = ""
         }
     }
     

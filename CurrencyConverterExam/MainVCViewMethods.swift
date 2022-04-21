@@ -9,6 +9,17 @@ import UIKit
 
 extension MainViewController {
     
+    // MARK: - Show Alert
+    func showAlert(alertTitle:   String?,
+                   alertMessage: String?,
+                   okActionText: String?) {
+        stopIndicator()
+        let alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: okActionText ?? "Done", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    // MARK: - Selector Action Methods
     @objc func dropSellCurrencyDownButtonDidSelected() {
         sellCurrencyDropDown.show()
     }
@@ -38,7 +49,7 @@ extension MainViewController {
         }
     }
     
-    func exchangePossibility(from: Currency, amount: Double, to: Currency) -> Bool {
+    private func exchangePossibility(from: Currency, amount: Double, to: Currency) -> Bool {
         
         switch (isCommissionFree, from, to) {
         case (_, .EUR, .EUR): return false
@@ -73,59 +84,8 @@ extension MainViewController {
         
     }
     
-    func exchange(fromAmount: Double, from: String, toAmount: Double, to: String) {
-        let fromCurrency = Currency.getFromString(value: from)
-        let toCurrency = Currency.getFromString(value: to)
-        commissionCount += 1
-        let commisionFee = fromAmount * 0.07
-        
-        switch (fromCurrency) {
-        case .EUR:
-            eurAmountValue -=
-                (isCommissionFree)
-                ? (fromAmount)
-                : (fromAmount + commisionFee)
-            
-            (toCurrency == .USD)
-                ? (usdAmountValue += toAmount)
-                : (jpyAmountValue += toAmount)
-            
-        case .USD:
-            usdAmountValue -=
-                (isCommissionFree)
-                ? (fromAmount)
-                : (fromAmount + commisionFee)
-            
-            (toCurrency == .EUR)
-                ? (eurAmountValue += toAmount)
-                : (jpyAmountValue += toAmount)
-            
-        case .JPY:
-            jpyAmountValue -=
-                (isCommissionFree)
-                ? (fromAmount)
-                : (fromAmount + commisionFee)
-            
-            (toCurrency == .EUR)
-                ? (eurAmountValue += toAmount)
-                : (usdAmountValue += toAmount)
-        }
-        
-        recieveAmountValue = toAmount
-    }
     
-    
-    func showAlert(alertTitle:   String?,
-                   alertMessage: String?,
-                   okActionText: String?) {
-        stopIndicator()
-        let alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: okActionText ?? "Done", style: .default, handler: nil))
-        self.present(alert, animated: true, completion: nil)
-    }
-    
-    
-    
+    // MARK: - Keyboard methods
     @objc func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
             self.bottomButtonConstraint.constant -= keyboardSize.height - 18
@@ -148,6 +108,7 @@ extension MainViewController {
     }
     
     
+    // MARK: - Indicator methods
     /**
      add activity indicator to the view
      disable user interactions

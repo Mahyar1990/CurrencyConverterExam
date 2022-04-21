@@ -25,7 +25,6 @@ extension MainViewController {
                                     alertMessage: "",
                                     okActionText: "OK")
                 }
-                
                 return
             }
             self?.exchange(fromAmount:  Double(amount)!,
@@ -37,17 +36,57 @@ extension MainViewController {
                                                      fromCurrency:  fromCurrency,
                                                      toAmount:      responseObject.amount,
                                                      toCurrency:    responseObject.currency)
-            
             DispatchQueue.main.async {
                 self?.stopIndicator()
                 self?.showAlert(alertTitle:   title,
                                 alertMessage: message,
                                 okActionText: "Done")
             }
-            
         }
         
     }
+    
+    private func exchange(fromAmount: Double, from: String, toAmount: Double, to: String) {
+        let fromCurrency = Currency.getFromString(value: from)
+        let toCurrency = Currency.getFromString(value: to)
+        commissionCount += 1
+        let commisionFee = fromAmount * 0.07
+        
+        switch (fromCurrency) {
+        case .EUR:
+            eurAmountValue -=
+                (isCommissionFree)
+                ? (fromAmount)
+                : (fromAmount + commisionFee)
+            
+            (toCurrency == .USD)
+                ? (usdAmountValue += toAmount)
+                : (jpyAmountValue += toAmount)
+            
+        case .USD:
+            usdAmountValue -=
+                (isCommissionFree)
+                ? (fromAmount)
+                : (fromAmount + commisionFee)
+            
+            (toCurrency == .EUR)
+                ? (eurAmountValue += toAmount)
+                : (jpyAmountValue += toAmount)
+            
+        case .JPY:
+            jpyAmountValue -=
+                (isCommissionFree)
+                ? (fromAmount)
+                : (fromAmount + commisionFee)
+            
+            (toCurrency == .EUR)
+                ? (eurAmountValue += toAmount)
+                : (usdAmountValue += toAmount)
+        }
+        
+        recieveAmountValue = toAmount
+    }
+    
     
     private func generateAlertTitle() -> String {
         let title = constants.alertAccessTitle
