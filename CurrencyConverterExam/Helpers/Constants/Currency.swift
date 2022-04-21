@@ -8,6 +8,7 @@
 import Foundation
 
 enum Currency {
+    
     case USD
     case EUR
     case JPY
@@ -17,6 +18,16 @@ enum Currency {
         case .USD: return "USD"
         case .EUR: return "EUR"
         case .JPY: return "JPY"
+        }
+    }
+    
+    static func getFromString(value: String) -> Currency {
+        switch value {
+        case "EUR": return .EUR
+        case "USD": return .USD
+        case "JPY": return .JPY
+        default:
+            return .EUR
         }
     }
 }

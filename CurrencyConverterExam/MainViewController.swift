@@ -12,32 +12,67 @@ class MainViewController: UIViewController {
     
     // global access to Constants
     let constants = Constants()
+    var userDefaultConstants = UserDefaultConstants()
     
     let currencies = [Currency.EUR.getStringValue(), Currency.USD.getStringValue(), Currency.JPY.getStringValue()]
     
     
-    
+    // MARK: - Properties
     var eurAmountValue: Double = 1000.00 {
         didSet {
-            eurLabel.text = String(format: "%.2f", eurAmountValue)
+            UserDefaults().setValue(eurAmountValue, forKey: userDefaultConstants.eurAmountValue)
+            DispatchQueue.main.async {
+                self.eurLabel.text = String(format: "%.2f", self.eurAmountValue) + " " + Currency.EUR.getStringValue()
+            }
         }
     }
-    var usdAmountValue: Double = 1000.00 {
+    var usdAmountValue: Double = 0.00 {
         didSet {
-            usdLabel.text = String(format: "%.2f", usdAmountValue)
+            UserDefaults().setValue(usdAmountValue, forKey: userDefaultConstants.usdAmountValue)
+            DispatchQueue.main.async {
+                self.usdLabel.text = String(format: "%.2f", self.usdAmountValue) + " " + Currency.USD.getStringValue()
+            }
         }
     }
-    var jpyAmountValue: Double = 1000.00 {
+    var jpyAmountValue: Double = 0.00 {
         didSet {
-            jpyLabel.text = String(format: "%.2f", jpyAmountValue)
+            UserDefaults().setValue(jpyAmountValue, forKey: userDefaultConstants.jpyAmountValue)
+            DispatchQueue.main.async {
+                self.jpyLabel.text = String(format: "%.2f", self.jpyAmountValue) + " " + Currency.JPY.getStringValue()
+            }
+        }
+    }
+    var commissionCount: Int = 0 {
+        didSet {
+            UserDefaults().setValue(commissionCount, forKey: userDefaultConstants.commissionCount)
+            isCommissionFree = (commissionCount > 5) ? false : true
+        }
+    }
+    var isCommissionFree: Bool = true {
+        didSet {
+            UserDefaults().setValue(isCommissionFree, forKey: userDefaultConstants.isCommissionFree)
         }
     }
     
-    var cellAmountValue: Double = 100.00 {
+    
+    var sellAmountValue: Double = 100.00 {
         didSet {
-            sellTextField.text = String(format: "%.2f", cellAmountValue)
+            print("sellAmountValue = \(sellAmountValue)")
+            DispatchQueue.main.async {
+                self.sellTextField.text = String(format: "%.2f", self.sellAmountValue)
+            }
         }
     }
+    
+    var recieveAmountValue: Double = 100.00 {
+        didSet {
+            print("recieveAmountValue = \(recieveAmountValue)")
+            DispatchQueue.main.async {
+                self.recieveAmountLabel.text = "+ " + String(format: "%.2f", self.recieveAmountValue)
+            }
+        }
+    }
+    
     
     
     

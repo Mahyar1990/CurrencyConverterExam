@@ -23,10 +23,95 @@ extension MainViewController {
            let from = sellCurrencyButton.titleLabel?.text,
            let to = recieveCurrencyButton.titleLabel?.text {
             
-            exchangeServiceCall(amount:         value,
-                                fromCurrency:   from,
-                                toCurrency:     to)
+            let fromCurrency = Currency.getFromString(value: from)
+            let toCurrency = Currency.getFromString(value: to)
+            if exchangePossibility(from: fromCurrency, amount: Double(value)!, to: toCurrency) {
+                exchangeServiceCall(amount:         value,
+                                    fromCurrency:   from,
+                                    toCurrency:     to)
+            } else {
+                showAlert(alertTitle:   constants.alertFailedTitle,
+                          alertMessage: nil,
+                          okActionText: nil)
+            }
+            
         }
+    }
+    
+    func exchangePossibility(from: Currency, amount: Double, to: Currency) -> Bool {
+        
+        switch (isCommissionFree, from, to) {
+        case (_, .EUR, .EUR): return false
+        case (_, .USD, .USD): return false
+        case (_, .JPY, .JPY): return false
+        
+        case (true, .EUR, .USD),
+             (true, .EUR, .JPY):
+            return (eurAmountValue >= amount) ? true : false
+            
+        case (true, .USD, .EUR),
+             (true, .USD, .JPY):
+            return (usdAmountValue >= amount) ? true : false
+            
+        case (true, .JPY, .EUR),
+             (true, .JPY, .USD):
+            return (jpyAmountValue >= amount) ? true : false
+            
+        
+        case (false, .EUR, .USD),
+             (false, .EUR, .JPY):
+            return ((eurAmountValue - (amount * 1.07)) >= 0) ? true : false
+            
+        case (false, .USD, .EUR),
+             (false, .USD, .JPY):
+            return ((usdAmountValue - (amount * 1.07)) >= 0) ? true : false
+            
+        case (false, .JPY, .EUR),
+             (false, .JPY, .USD):
+            return ((jpyAmountValue - (amount * 1.07)) >= 0) ? true : false
+        }
+        
+    }
+    
+    func exchange(fromAmount: Double, from: String, toAmount: Double, to: String) {
+        let fromCurrency = Currency.getFromString(value: from)
+        let toCurrency = Currency.getFromString(value: to)
+        commissionCount += 1
+        let commisionFee = fromAmount * 0.07
+        
+        switch (fromCurrency) {
+        case .EUR:
+            eurAmountValue -=
+                (isCommissionFree)
+                ? (fromAmount)
+                : (fromAmount + commisionFee)
+            
+            (toCurrency == .USD)
+                ? (usdAmountValue += toAmount)
+                : (jpyAmountValue += toAmount)
+            
+        case .USD:
+            usdAmountValue -=
+                (isCommissionFree)
+                ? (fromAmount)
+                : (fromAmount + commisionFee)
+            
+            (toCurrency == .EUR)
+                ? (eurAmountValue += toAmount)
+                : (jpyAmountValue += toAmount)
+            
+        case .JPY:
+            jpyAmountValue -=
+                (isCommissionFree)
+                ? (fromAmount)
+                : (fromAmount + commisionFee)
+            
+            (toCurrency == .EUR)
+                ? (eurAmountValue += toAmount)
+                : (usdAmountValue += toAmount)
+        }
+        
+        recieveAmountValue = toAmount
     }
     
     
@@ -35,13 +120,7 @@ extension MainViewController {
                    okActionText: String?) {
         stopIndicator()
         let alert = UIAlertController(title: alertTitle, message: alertMessage, preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: okActionText ?? "Done", style: .default, handler: { action in
-            switch action.style{
-            case .default: print("default")
-            case .cancel: print("cancel")
-            case .destructive: print("destructive")
-            }
-        }))
+        alert.addAction(UIAlertAction(title: okActionText ?? "Done", style: .default, handler: nil))
         self.present(alert, animated: true, completion: nil)
     }
     

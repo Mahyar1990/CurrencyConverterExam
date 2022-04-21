@@ -15,7 +15,7 @@ extension MainViewController: UITextFieldDelegate {
             let integerValue = Int(value)
             let decimalValue = Int((value.truncatingRemainder(dividingBy: 1) * 100).rounded())
             let finalValue: Double = Double(integerValue) + (Double(decimalValue) / 100)
-            cellAmountValue = finalValue
+            sellAmountValue = finalValue
         }
     }
     

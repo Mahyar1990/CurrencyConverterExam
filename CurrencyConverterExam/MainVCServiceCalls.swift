@@ -28,7 +28,10 @@ extension MainViewController {
                 
                 return
             }
-            
+            self?.exchange(fromAmount:  Double(amount)!,
+                           from:        fromCurrency,
+                           toAmount:    Double(responseObject.amount)!,
+                           to:          toCurrency)
             let title = self?.generateAlertTitle()
             let message = self?.generateAlertMessage(fromAmount:    amount,
                                                      fromCurrency:  fromCurrency,
@@ -54,7 +57,6 @@ extension MainViewController {
                                       fromCurrency: String,
                                       toAmount:     String,
                                       toCurrency:   String) -> String {
-        let isFree = false
         
         var message = constants.alertMessage
         message += " " + fromAmount
@@ -63,7 +65,7 @@ extension MainViewController {
         message += " " + toAmount
         message += " " + toCurrency
         message += "." + " "
-        message += isFree ? constants.alertFreeCommissionFee : constants.alertCommissionFee
+        message += isCommissionFree ? constants.alertFreeCommissionFee : constants.alertCommissionFee
         
         return message
     }

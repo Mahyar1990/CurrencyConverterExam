@@ -32,6 +32,7 @@
 		3EA5B803281084C600507B2C /* SERVICES_PATH.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B802281084C600507B2C /* SERVICES_PATH.swift */; };
 		3EA5B8072810855300507B2C /* MainVCServiceCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B8062810855300507B2C /* MainVCServiceCalls.swift */; };
 		3EA5B80A2810931700507B2C /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B8092810931700507B2C /* ActivityIndicator.swift */; };
+		3EA5B80E2810C0A200507B2C /* UserDefaultConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5B80D2810C0A200507B2C /* UserDefaultConstants.swift */; };
 		AF05FC404FE80B2D08C7721A /* Pods_CurrencyConverterExam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B57F550E1A3D253C3AB9AD7A /* Pods_CurrencyConverterExam.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +66,7 @@
 		3EA5B802281084C600507B2C /* SERVICES_PATH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SERVICES_PATH.swift; sourceTree = "<group>"; };
 		3EA5B8062810855300507B2C /* MainVCServiceCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVCServiceCalls.swift; sourceTree = "<group>"; };
 		3EA5B8092810931700507B2C /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		3EA5B80D2810C0A200507B2C /* UserDefaultConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultConstants.swift; sourceTree = "<group>"; };
 		B57F550E1A3D253C3AB9AD7A /* Pods_CurrencyConverterExam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurrencyConverterExam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -140,6 +142,7 @@
 				3EA5B800281084B600507B2C /* SERVICE_ADDRESSES.swift */,
 				3EA5B802281084C600507B2C /* SERVICES_PATH.swift */,
 				3EA5B7D828100E4600507B2C /* AppFontName.swift */,
+				3EA5B80D2810C0A200507B2C /* UserDefaultConstants.swift */,
 				3EA5B7DE2810258A00507B2C /* Currency.swift */,
 				3EA5B7E0281025EE00507B2C /* Constants.swift */,
 				3EA5B7F428103BFB00507B2C /* Images.swift */,
@@ -301,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EA5B80E2810C0A200507B2C /* UserDefaultConstants.swift in Sources */,
 				3EA5B7E52810265E00507B2C /* View.swift in Sources */,
 				3EA5B7DF2810258A00507B2C /* Currency.swift in Sources */,
 				3EA5B7DB28100E7A00507B2C /* FontExtension.swift in Sources */,

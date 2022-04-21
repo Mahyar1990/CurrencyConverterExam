@@ -85,7 +85,8 @@ extension MainViewController {
         recieveLabel.text = constants.recieve
         
         recieveAmountLabel.setupMyCustomStyle(textColor: nil, fontSize: 16, adjustFontSize: true)
-        recieveAmountLabel.text = "+" + "110.30"
+        recieveAmountLabel.text = ""
+        recieveAmountLabel.textColor = .green
         
         recieveCurrencyButton.setupMyCustomStyle(contentMode: nil, fontSize: 16, fontColor: nil)
         recieveCurrencyButton.setTitle(Currency.USD.getStringValue(), for: .normal)

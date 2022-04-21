@@ -18,6 +18,8 @@ extension MainViewController {
         
         sellTextField.delegate = self
         setupKeyboardObservers()
+        
+        setupPortfolio()
     }
     
     private func setupNavigationBar() {
@@ -38,6 +40,38 @@ extension MainViewController {
                                                selector: #selector(keyboardWillHide(notification:)),
                                                name: UIResponder.keyboardWillHideNotification,
                                                object: nil)
+    }
+    
+    
+    private func setupPortfolio() {
+        if let eurAmountValue = UserDefaults().value(forKey: userDefaultConstants.eurAmountValue) as? Double {
+            self.eurAmountValue = eurAmountValue
+        } else {
+            let value = 1000.00
+            self.eurAmountValue = value
+        }
+        
+        if let usdAmountValue = UserDefaults().value(forKey: userDefaultConstants.usdAmountValue) as? Double {
+            self.usdAmountValue = usdAmountValue
+        } else {
+            let value = 0.00
+            self.usdAmountValue = value
+        }
+        
+        if let jpyAmountValue = UserDefaults().value(forKey: userDefaultConstants.jpyAmountValue) as? Double {
+            self.jpyAmountValue = jpyAmountValue
+        } else {
+            let value = 0.00
+            self.jpyAmountValue = value
+        }
+        
+        
+        if let commissionCount = UserDefaults().value(forKey: userDefaultConstants.commissionCount) as? Int {
+            self.commissionCount = commissionCount
+        } else {
+            self.commissionCount = 0
+            isCommissionFree = true
+        }
     }
     
     
