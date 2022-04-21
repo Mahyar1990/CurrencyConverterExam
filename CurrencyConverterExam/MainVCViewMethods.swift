@@ -88,7 +88,11 @@ extension MainViewController {
     // MARK: - Keyboard methods
     @objc func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize = (notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
-            self.bottomButtonConstraint.constant -= keyboardSize.height - 18
+            if (self.view.bounds.height < 600) {
+                self.bottomButtonConstraint.constant = -(keyboardSize.height + 8)
+            } else {
+                self.bottomButtonConstraint.constant = -(keyboardSize.height + 38)
+            }
         }
     }
     
