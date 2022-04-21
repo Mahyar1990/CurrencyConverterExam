@@ -257,7 +257,7 @@
 		41EBB71B7A9A379CC7982F6AFC293629 /* MDCBottomNavigationBarControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 145C56C673CD361A015F6CCAC2897914 /* MDCBottomNavigationBarControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41F72A22B99E7DDCA1B82EA52FD1352E /* MDCIcons+BundleLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 330C1B92BF96F73BD220CB46E75F74E8 /* MDCIcons+BundleLoader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		425D2D69E942793127219B3551A98079 /* MDCNavigationBarTypographyThemer.h in Headers */ = {isa = PBXBuildFile; fileRef = EFF4CD31CF6F5559AB1DAF31E37B7D1D /* MDCNavigationBarTypographyThemer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		429F96D649B4321981F0DC90FD9CF1F9 /* MaterialComponents-MaterialIcons_ic_check_circle in Resources */ = {isa = PBXBuildFile; fileRef = 3CA6F19A19E2E67F5778834EA376B306 /* MaterialComponents-MaterialIcons_ic_check_circle */; };
+		429F96D649B4321981F0DC90FD9CF1F9 /* MaterialIcons_ic_check_circle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3CA6F19A19E2E67F5778834EA376B306 /* MaterialIcons_ic_check_circle.bundle */; };
 		42DDBD8FD84CBE4E5EBD3160040D6053 /* UIFont+MaterialScalable.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F32DBABD9D16020D62C95CA9EDB09C /* UIFont+MaterialScalable.m */; };
 		4342ECC15C466BFF7BC7820622240753 /* MDCItemBar.h in Headers */ = {isa = PBXBuildFile; fileRef = AB11282F16F97A7D5EA503E113CE636B /* MDCItemBar.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4404C8725E6D7BCE9F815F20ACAB75E3 /* MDCLegacyTonalPalette.m in Sources */ = {isa = PBXBuildFile; fileRef = 547C82DFCB3468A4F51BDDC3791C6AD1 /* MDCLegacyTonalPalette.m */; };
@@ -287,7 +287,7 @@
 		4B0153933FDD718788696068C3DD0316 /* MDCButtonTypographyThemer.m in Sources */ = {isa = PBXBuildFile; fileRef = E56FE5571E70EA5241486E09365C3A1F /* MDCButtonTypographyThemer.m */; };
 		4B859030DC323660891D87CEFA912684 /* MDCBaseCell+MaterialTheming.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BFA1FC4F4BDCF4A6A3EBCC5A339CD5 /* MDCBaseCell+MaterialTheming.m */; };
 		4B9CC5520319AC8D0E8554A7AE53E849 /* MDCTextControlStyleOutlined.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DCCEBF86FBF1C5035039B25A977428 /* MDCTextControlStyleOutlined.m */; };
-		4BCEE1A7F1E5C2ACC87D285C949E5A03 /* MaterialComponents-MaterialIcons_ic_check in Resources */ = {isa = PBXBuildFile; fileRef = CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialComponents-MaterialIcons_ic_check */; };
+		4BCEE1A7F1E5C2ACC87D285C949E5A03 /* MaterialIcons_ic_check.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialIcons_ic_check.bundle */; };
 		4C34DF36C31185A57C1D1D69AC5274F5 /* MaterialBanner+Theming.h in Headers */ = {isa = PBXBuildFile; fileRef = DA02C681B27307B4110438EA774E78F6 /* MaterialBanner+Theming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C6A7EA5273B8802FDB8F3546BFA0016 /* MDCThumbView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5161C42FEE9D33B3F8649A8BCA9226 /* MDCThumbView.m */; };
 		4D625CD466C0BBB61787EC5D354F81DE /* MDCTabBarTypographyThemer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5869272240BF58C48B78DEDD94D0074F /* MDCTabBarTypographyThemer.m */; };
@@ -373,7 +373,7 @@
 		6440A993F22ECE9DB214D3DF94F962C6 /* MDCTabBarUnderlineIndicatorTemplate.h in Headers */ = {isa = PBXBuildFile; fileRef = 58FDDE8EAD4BC40BB084128E384C55E1 /* MDCTabBarUnderlineIndicatorTemplate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		645AE0181B2E705149967750831755F6 /* MDCInkTouchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 750B54EFACCDD1F4D8B04561F8DA6F77 /* MDCInkTouchController.m */; };
 		64B94B1692586065A93235C19A8BC6FC /* MDCFontTraits.h in Headers */ = {isa = PBXBuildFile; fileRef = 60769940BEEA05744CFEAB8773947E04 /* MDCFontTraits.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6543102BA5BF54A780651C8168932795 /* MaterialComponents-MaterialIcons_ic_feedback in Resources */ = {isa = PBXBuildFile; fileRef = 428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialComponents-MaterialIcons_ic_feedback */; };
+		6543102BA5BF54A780651C8168932795 /* MaterialIcons_ic_feedback.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialIcons_ic_feedback.bundle */; };
 		65F68BDB120E204AA4ADE0D589B53E77 /* MDCMath.h in Headers */ = {isa = PBXBuildFile; fileRef = DE132953D5C72608BB3A1D1EFB04D28D /* MDCMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		66A094423271EE8970A6FDB34BB1DD0A /* MDCAlertActionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C44E63AEE9ECE2E7BB33118D7DECFE96 /* MDCAlertActionManager.m */; };
 		66AA435633BA57506A18F0E0FA591C09 /* MDCCornerTreatment+CornerTypeInitalizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3DC5987967DC4F0ACB614B0B247096 /* MDCCornerTreatment+CornerTypeInitalizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -477,7 +477,7 @@
 		834912E52D85C3B9EC71E3007D92926B /* MDCTabBarItemAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8989C489809A5DF0360DB83180A9D8 /* MDCTabBarItemAppearance.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		834FC15EB97BD1C371C8A6CF34EE225B /* MDCCurvedCornerTreatment.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B797E097D38152183D4D5F4980C70DB /* MDCCurvedCornerTreatment.m */; };
 		8356C99226A884DFC441630B500A2794 /* MaterialContainerScheme.h in Headers */ = {isa = PBXBuildFile; fileRef = FE8EAA3FF45E29DEBF627D2F9F17E2FF /* MaterialContainerScheme.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83BF7637F26D03ADF1D5D7DA8D6F11B3 /* MaterialComponents-MaterialIcons_ic_settings in Resources */ = {isa = PBXBuildFile; fileRef = AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialComponents-MaterialIcons_ic_settings */; };
+		83BF7637F26D03ADF1D5D7DA8D6F11B3 /* MaterialIcons_ic_settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialIcons_ic_settings.bundle */; };
 		83DFEBC54C1A05CE08F816BB7C160E39 /* MDCOutlinedTextField+MaterialTheming.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E78846656425DDCF1266E9F33F2430 /* MDCOutlinedTextField+MaterialTheming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84459C4824533C9C4FD12AFC941F3CE1 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34762A0BA01EAA77F7227B9D252AA79 /* DropDown.swift */; };
 		8450F19BA29995994C21A3759BD991EC /* MDCShapeMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 857F86E8BCE7CB49B5F6C0135FBC00C5 /* MDCShapeMediator.m */; };
@@ -496,7 +496,7 @@
 		85F3FD46A4CF03705E96A735C6F9A67A /* MDCTextInputBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4606A3A46A3682AE0C77C1D8CCFC5B0 /* MDCTextInputBorderView.m */; };
 		8608A0E2B872442780FC5FCBFC520901 /* MaterialIcons+ic_radio_button_unchecked.h in Headers */ = {isa = PBXBuildFile; fileRef = B10DF085AE2AF0E32F7ECF577DA82591 /* MaterialIcons+ic_radio_button_unchecked.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		860B1D3894CFE0D37E8C82F793B6BF5E /* MaterialComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 331C82A976D16F5F32D68117F4D25D55 /* MaterialComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		860ECC0C7F3D363E7BE37320CABDA3CE /* MaterialComponents-MaterialIcons_ic_chevron_right in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEEB1F5197182DD68A40B485334326 /* MaterialComponents-MaterialIcons_ic_chevron_right */; };
+		860ECC0C7F3D363E7BE37320CABDA3CE /* MaterialIcons_ic_chevron_right.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4CCEEB1F5197182DD68A40B485334326 /* MaterialIcons_ic_chevron_right.bundle */; };
 		867BEFC99FAD938D8F15DDEDFDE89B4E /* MDCTextControlStyleFilled.h in Headers */ = {isa = PBXBuildFile; fileRef = CE34507A926CF372052765ED20DF00C7 /* MDCTextControlStyleFilled.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		86DD1C6AAA91DD31391F9FC3D1284A71 /* MDCSheetContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C273990C6BB0A0BADB051244DB124A /* MDCSheetContainerView.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8729859336A278EB444706B712F15B61 /* UIViewController+MaterialBottomSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 398C9E9E19DF0F0447F963395F4E0821 /* UIViewController+MaterialBottomSheet.m */; };
@@ -634,9 +634,9 @@
 		AAC3733DA5A9E199117B0F0CAF6BD816 /* MDCProgressView+MaterialTheming.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA46EF840A16C5BA2DC83957F49562B /* MDCProgressView+MaterialTheming.m */; };
 		AAD1C63BA2C87394D306C9B243EE9BF8 /* MDMAnimationRegistrar.m in Sources */ = {isa = PBXBuildFile; fileRef = C7DE4D69F1A3E026A635ABE645000F4F /* MDMAnimationRegistrar.m */; };
 		AAE4481165213D00FEBBDECF879CF462 /* MDCBottomAppBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D75CD57B8CECD3B88C0196726A158F2 /* MDCBottomAppBarLayer.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		AB415A2B45F54E3EEFD5EB5704B083BC /* MaterialComponents-MaterialIcons_ic_arrow_back in Resources */ = {isa = PBXBuildFile; fileRef = 926DA190C7D642F031F184C79D52F1F7 /* MaterialComponents-MaterialIcons_ic_arrow_back */; };
+		AB415A2B45F54E3EEFD5EB5704B083BC /* MaterialIcons_ic_arrow_back.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 926DA190C7D642F031F184C79D52F1F7 /* MaterialIcons_ic_arrow_back.bundle */; };
 		AB41B53C3D1ECCE975F3D879DBAFDDB1 /* MaterialBottomNavigation+Theming.h in Headers */ = {isa = PBXBuildFile; fileRef = A7DED62A5BA5B89522EA54EB3F8173C2 /* MaterialBottomNavigation+Theming.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AB614AEA12D554C6E7F466414ED04BB5 /* MaterialComponents-MaterialIcons_ic_info in Resources */ = {isa = PBXBuildFile; fileRef = F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialComponents-MaterialIcons_ic_info */; };
+		AB614AEA12D554C6E7F466414ED04BB5 /* MaterialIcons_ic_info.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialIcons_ic_info.bundle */; };
 		ABD61B2926BA62F8344FDE86E111C542 /* MaterialSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 553F75F17B8AE6233B23711D59B1613A /* MaterialSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ABD884EBBD4BB4CC3FE1AE9C970546E8 /* MaterialTextControls+FilledTextAreas.h in Headers */ = {isa = PBXBuildFile; fileRef = DE95E523C52AA1D1C846B8547A29A60D /* MaterialTextControls+FilledTextAreas.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC28C8E6A0CDF720F443281155D3FAEF /* MaterialActionSheetStrings_table.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A5522D184F7590A98D474C4DF5D135 /* MaterialActionSheetStrings_table.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -745,7 +745,7 @@
 		C482D0A2ACB64677D5B7027FA43255D5 /* MDCTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4B0F5F409D5DF91EB4C00A8B145E47 /* MDCTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C4C279056162F01B554C13C62B8E39EB /* MDCFilledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A638E9DA4103D22EBBCA1B5FE86A8492 /* MDCFilledTextField.m */; };
 		C4C2AC30C32BBD1FE40D3F3891D97E0A /* MDCDialogTransitionController.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFFFDCB3090EB11C5567F58C09605D9 /* MDCDialogTransitionController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5762156301F61EA168BD049D424D81D /* MaterialComponents-MaterialIcons_ic_help_outline in Resources */ = {isa = PBXBuildFile; fileRef = 96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialComponents-MaterialIcons_ic_help_outline */; };
+		C5762156301F61EA168BD049D424D81D /* MaterialIcons_ic_help_outline.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialIcons_ic_help_outline.bundle */; };
 		C58654E23C8BEAFF11A2EBE544B9A1E0 /* MaterialTextFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D33265A7EC7F7F71C4A055D7C6FF32C /* MaterialTextFields.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6209E355ACCA0E5209AD178A844FFB0 /* MDCOutlinedButtonColorThemer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF92701D26354922BC567732C7DC11D0 /* MDCOutlinedButtonColorThemer.m */; };
 		C656331517B61916996A90CC04A84B0E /* MDCTextInputCharacterCounter.h in Headers */ = {isa = PBXBuildFile; fileRef = 5912B2F4A0920FB0F24F46B063CB3910 /* MDCTextInputCharacterCounter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -762,7 +762,7 @@
 		CA51B0661B5110BC6537D5A9BB4385E8 /* MDCSliderColorThemer.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C83721E130B42AB38901901BC118F7 /* MDCSliderColorThemer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA5BA1D2A34C6FB6FCBD6E892467D3A6 /* MDCTabBarItemCustomViewing.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E127B61935100149C3EC335FA90A4C1 /* MDCTabBarItemCustomViewing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA5D020019D2625A070785F1E428849D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC369FB350F40664AE41AA736D74CF46 /* QuartzCore.framework */; };
-		CA8523A2D2F67E0F3929489D6A99FF28 /* MaterialComponents-MaterialIcons_ic_reorder in Resources */ = {isa = PBXBuildFile; fileRef = CE66BAA8E77D069DD1D10478616727F7 /* MaterialComponents-MaterialIcons_ic_reorder */; };
+		CA8523A2D2F67E0F3929489D6A99FF28 /* MaterialIcons_ic_reorder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE66BAA8E77D069DD1D10478616727F7 /* MaterialIcons_ic_reorder.bundle */; };
 		CA8C33F263A4AB8CA1C61D99E9A2EE60 /* MaterialAnimationTiming.h in Headers */ = {isa = PBXBuildFile; fileRef = CA36EDAB70B04159C7C5C660E19D63E1 /* MaterialAnimationTiming.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA946AFE4D369CBA51A8664C94D1A7E6 /* MDCPalettes.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C92820CB078B2FFFB285AFF0D0C2A09 /* MDCPalettes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA9C106E6FCA4454A588BF2B950CD8C8 /* MDCPaletteNames.h in Headers */ = {isa = PBXBuildFile; fileRef = A9F403D0D0A96BA9852D11CD463C005D /* MDCPaletteNames.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -923,14 +923,14 @@
 		F6D6B6AF2086AD1173940070E4C248A5 /* MDCBottomSheetControllerShapeThemer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E218784D666670906F477104AF9A1F5 /* MDCBottomSheetControllerShapeThemer.m */; };
 		F6F1E8BA1C272F2466C0DC291F718080 /* MDCCurvedCornerTreatment.h in Headers */ = {isa = PBXBuildFile; fileRef = F55DE406F681ECB26EBF91279E287911 /* MDCCurvedCornerTreatment.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F741B93D0288EF92177119C5CC0D64DC /* MDCFilledTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E29AD25BC1A3C7489D8B281F2849C97 /* MDCFilledTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F809DCB5DCBA82C7D2195EA25E21F0CF /* MaterialComponents-MaterialIcons_ic_more_horiz in Resources */ = {isa = PBXBuildFile; fileRef = 7E53D87E68BD50086D940E7306F624AC /* MaterialComponents-MaterialIcons_ic_more_horiz */; };
+		F809DCB5DCBA82C7D2195EA25E21F0CF /* MaterialIcons_ic_more_horiz.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E53D87E68BD50086D940E7306F624AC /* MaterialIcons_ic_more_horiz.bundle */; };
 		F812E2A89C1F25BE60F3E0A03B7FF265 /* MDCSnackbarManagerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AC4730462E0EE848F968956BDEF606EA /* MDCSnackbarManagerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F88FA4B8D400DCF6CEE7F5DB52956D64 /* MDCFilledTextArea.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F22418C59736DFAED3C53B9780BE7BA /* MDCFilledTextArea.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8C0F0E45D36FDEA5279CA8D463E7496 /* MDMDragCoefficient.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F10192A8984A341C45DE5BFDED98BC /* MDMDragCoefficient.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F95134B340BDE8537CEDC91162AE776B /* UIImage+MaterialRTL.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AEC5F6659AF71190D7E3195C3145C49 /* UIImage+MaterialRTL.h */; };
 		F95D044FFA3301884433EEA032C43ACB /* MDCTextButtonColorThemer.h in Headers */ = {isa = PBXBuildFile; fileRef = F9B84AD0A9513A3705720F7E2D5DB7B6 /* MDCTextButtonColorThemer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F9A949AF191D25341E42533BAF4894FC /* MaterialComponents-MaterialIcons_ic_color_lens in Resources */ = {isa = PBXBuildFile; fileRef = 364A9280868DDB20F094AFF6D142D3BE /* MaterialComponents-MaterialIcons_ic_color_lens */; };
-		F9E5E4A98EA9615AF8DC707E42892600 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked in Resources */ = {isa = PBXBuildFile; fileRef = E6CD78CC114C7DA3559A815976540E00 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked */; };
+		F9A949AF191D25341E42533BAF4894FC /* MaterialIcons_ic_color_lens.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 364A9280868DDB20F094AFF6D142D3BE /* MaterialIcons_ic_color_lens.bundle */; };
+		F9E5E4A98EA9615AF8DC707E42892600 /* MaterialIcons_ic_radio_button_unchecked.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6CD78CC114C7DA3559A815976540E00 /* MaterialIcons_ic_radio_button_unchecked.bundle */; };
 		F9F449B7B2BFAAB843868A64D639E381 /* MDCPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E3CE0C26CB93FEF77D38E5A68AD39C /* MDCPageControl.m */; };
 		FA00CC05BAFE69B57B8C6DB86FB2A4C6 /* MDCBottomDrawerViewController+MaterialTheming.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E976A534906524D00965144305C992 /* MDCBottomDrawerViewController+MaterialTheming.m */; };
 		FA571439EC93006B9CF06B692BD26302 /* MDCPaletteNames.m in Sources */ = {isa = PBXBuildFile; fileRef = 548A6E3A4EB0DDD76CE9BAAB337625D3 /* MDCPaletteNames.m */; };
@@ -1325,7 +1325,7 @@
 		35E9B41C7FF6666638DEA393D8E7F755 /* MDCBaseTextFieldDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBaseTextFieldDelegate.h; path = components/TextControls/src/BaseTextFields/MDCBaseTextFieldDelegate.h; sourceTree = "<group>"; };
 		361341E2EC969FD7E82451F934AFEBE6 /* ResourceBundle-MaterialIcons_ic_more_horiz-MaterialComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MaterialIcons_ic_more_horiz-MaterialComponents-Info.plist"; sourceTree = "<group>"; };
 		3626AA918D61BA1302BFE75D5612E73A /* MDCSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSlider.h; path = components/Slider/src/MDCSlider.h; sourceTree = "<group>"; };
-		364A9280868DDB20F094AFF6D142D3BE /* MaterialComponents-MaterialIcons_ic_color_lens */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_color_lens"; path = MaterialIcons_ic_color_lens.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		364A9280868DDB20F094AFF6D142D3BE /* MaterialIcons_ic_color_lens.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_color_lens.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3655D38BBF77D4EE65BB494225F625D9 /* MDCTabBarTextTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarTextTransform.h; path = components/Tabs/src/MDCTabBarTextTransform.h; sourceTree = "<group>"; };
 		36B0890BFB0D5E7552C75E9AED2BD81A /* MDCButtonTypographyThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCButtonTypographyThemer.h; path = components/Buttons/src/TypographyThemer/MDCButtonTypographyThemer.h; sourceTree = "<group>"; };
 		36EA7CBA4F2545251B8EDCE8D1FDF184 /* MDCFloatingButtonModeAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFloatingButtonModeAnimator.h; path = components/Buttons/src/private/MDCFloatingButtonModeAnimator.h; sourceTree = "<group>"; };
@@ -1349,10 +1349,10 @@
 		3B9C596566E1F2FB40E374217358B934 /* MDCTextControlPlaceholderSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlPlaceholderSupport.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlPlaceholderSupport.h; sourceTree = "<group>"; };
 		3C03972DD7F653140337995A50572F44 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		3C30CE7769A785ACCDDD6B8B538B5954 /* MDCShapeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCShapeCategory.m; path = components/schemes/Shape/src/MDCShapeCategory.m; sourceTree = "<group>"; };
-		3CA6F19A19E2E67F5778834EA376B306 /* MaterialComponents-MaterialIcons_ic_check_circle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_check_circle"; path = MaterialIcons_ic_check_circle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CA6F19A19E2E67F5778834EA376B306 /* MaterialIcons_ic_check_circle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_check_circle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCBB7CBD7644053B583A51CA3EACB68 /* UIView+MDCTimingFunction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCTimingFunction.m"; path = "components/AnimationTiming/src/UIView+MDCTimingFunction.m"; sourceTree = "<group>"; };
 		3D5CEE3C2004B8E225531F03C6E60C10 /* MaterialNavigationDrawer+Theming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialNavigationDrawer+Theming.h"; path = "components/NavigationDrawer/src/Theming/MaterialNavigationDrawer+Theming.h"; sourceTree = "<group>"; };
-		3DB47A6C65F93C42BC5C238DBE91BBE8 /* MotionInterchange */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MotionInterchange; path = MotionInterchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB47A6C65F93C42BC5C238DBE91BBE8 /* MotionInterchange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionInterchange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1AC7F6244D7119664A28004CEDF6E9 /* MDCAppBarNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCAppBarNavigationController.h; path = components/AppBar/src/MDCAppBarNavigationController.h; sourceTree = "<group>"; };
 		3E5509BAD8BDA60336EDBA3896FC2DC9 /* MaterialAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialAvailability.h; path = components/Availability/src/MaterialAvailability.h; sourceTree = "<group>"; };
 		3E5F318B5EEAF27303F77F174C0A9BFC /* MDCProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCProgressView.h; path = components/ProgressView/src/MDCProgressView.h; sourceTree = "<group>"; };
@@ -1372,7 +1372,7 @@
 		41662C63792C8B5A5FBE6D11462F22CA /* MDCCollectionViewEditor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCollectionViewEditor.h; path = components/Collections/src/private/MDCCollectionViewEditor.h; sourceTree = "<group>"; };
 		423BFF76821C05DD70C307AF2C0BFEF4 /* MaterialButtons+ShapeThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialButtons+ShapeThemer.h"; path = "components/Buttons/src/ShapeThemer/MaterialButtons+ShapeThemer.h"; sourceTree = "<group>"; };
 		425EDCE7A6BEC9B588B5D4DC8CD6D9B1 /* MDCRoundedCornerTreatment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRoundedCornerTreatment.m; path = components/ShapeLibrary/src/MDCRoundedCornerTreatment.m; sourceTree = "<group>"; };
-		428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialComponents-MaterialIcons_ic_feedback */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_feedback"; path = MaterialIcons_ic_feedback.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialIcons_ic_feedback.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_feedback.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		42DB3553E7E91958C0E525C660D2DA07 /* MDCDialogPresentationControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCDialogPresentationControllerDelegate.h; path = components/Dialogs/src/MDCDialogPresentationControllerDelegate.h; sourceTree = "<group>"; };
 		435CEE2ABE62380178BC8D5A4E88A8E2 /* MDCTextInputControllerBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextInputControllerBase.h; path = components/TextFields/src/MDCTextInputControllerBase.h; sourceTree = "<group>"; };
 		43BC8BE8A3B38859E96AA85A5CF7CD40 /* UIFont+MaterialTypography.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+MaterialTypography.h"; path = "components/Typography/src/UIFont+MaterialTypography.h"; sourceTree = "<group>"; };
@@ -1414,7 +1414,7 @@
 		4CA28CC97045FA4487C40A7DBB17CBC2 /* MDCTextInputControllerBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextInputControllerBase.m; path = components/TextFields/src/MDCTextInputControllerBase.m; sourceTree = "<group>"; };
 		4CAD236F8E0F1E752DF092622210019C /* UIColor+MaterialBlending.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MaterialBlending.h"; path = "components/private/Color/src/UIColor+MaterialBlending.h"; sourceTree = "<group>"; };
 		4CB8A678756ECFB6963B0E4B14D49491 /* CATransaction+MotionAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CATransaction+MotionAnimator.h"; path = "src/CATransaction+MotionAnimator.h"; sourceTree = "<group>"; };
-		4CCEEB1F5197182DD68A40B485334326 /* MaterialComponents-MaterialIcons_ic_chevron_right */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_chevron_right"; path = MaterialIcons_ic_chevron_right.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCEEB1F5197182DD68A40B485334326 /* MaterialIcons_ic_chevron_right.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_chevron_right.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CD813E395C80EB63194F6420142A536 /* MDMUIKitValueCoercion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDMUIKitValueCoercion.m; path = src/private/MDMUIKitValueCoercion.m; sourceTree = "<group>"; };
 		4CF1ECA8CEAD04AB3747BC714A2D0014 /* MDCActionSheetControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCActionSheetControllerDelegate.h; path = components/ActionSheet/src/MDCActionSheetControllerDelegate.h; sourceTree = "<group>"; };
 		4D14DAA57D9F1BC944CD2D0CB82C0A26 /* MDCFilledTextField+MaterialTheming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCFilledTextField+MaterialTheming.h"; path = "components/TextControls/src/FilledTextFieldsTheming/MDCFilledTextField+MaterialTheming.h"; sourceTree = "<group>"; };
@@ -1621,7 +1621,7 @@
 		7DC778D208E50832C73787C008BD6F6D /* MaterialSnackbarStrings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialSnackbarStrings.h; path = components/Snackbar/src/private/MaterialSnackbarStrings.h; sourceTree = "<group>"; };
 		7DE6E26379D5A5C464A19A518F949EB0 /* MaterialAppBarStrings.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialAppBarStrings.h; path = components/AppBar/src/private/MaterialAppBarStrings.h; sourceTree = "<group>"; };
 		7E12D6975BB8CB9D1636A3D3BDD8C220 /* MaterialIcons_ic_help_outline.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = MaterialIcons_ic_help_outline.xcassets; path = components/private/Icons/icons/ic_help_outline/src/MaterialIcons_ic_help_outline.xcassets; sourceTree = "<group>"; };
-		7E53D87E68BD50086D940E7306F624AC /* MaterialComponents-MaterialIcons_ic_more_horiz */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_more_horiz"; path = MaterialIcons_ic_more_horiz.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E53D87E68BD50086D940E7306F624AC /* MaterialIcons_ic_more_horiz.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_more_horiz.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5805F306F5240432B4653730259386 /* MDCTabBarControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarControllerDelegate.h; path = components/Tabs/src/MDCTabBarControllerDelegate.h; sourceTree = "<group>"; };
 		7E78DBC1BB5FDFD276938E39E457D3FD /* MDCBottomNavigationBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomNavigationBarController.m; path = components/BottomNavigation/src/MDCBottomNavigationBarController.m; sourceTree = "<group>"; };
 		7EC11E05FDE43C6D8D1888A4ABA92005 /* MDCTypography.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTypography.m; path = components/Typography/src/MDCTypography.m; sourceTree = "<group>"; };
@@ -1695,7 +1695,7 @@
 		91AF4D2949ECA13F32BCD91D2FA6D882 /* MaterialFlexibleHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialFlexibleHeader.h; path = components/FlexibleHeader/src/MaterialFlexibleHeader.h; sourceTree = "<group>"; };
 		91E9615537E03175CF670FEC939B19C7 /* MDCAvailability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCAvailability.h; path = components/Availability/src/MDCAvailability.h; sourceTree = "<group>"; };
 		92040716731579DBA0C00DE8240ADC2C /* MDCDraggableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCDraggableView.h; path = components/BottomSheet/src/private/MDCDraggableView.h; sourceTree = "<group>"; };
-		926DA190C7D642F031F184C79D52F1F7 /* MaterialComponents-MaterialIcons_ic_arrow_back */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_arrow_back"; path = MaterialIcons_ic_arrow_back.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		926DA190C7D642F031F184C79D52F1F7 /* MaterialIcons_ic_arrow_back.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_arrow_back.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		931BB17976C6437941A2D6630E55E74C /* MaterialNavigationDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialNavigationDrawer.h; path = components/NavigationDrawer/src/MaterialNavigationDrawer.h; sourceTree = "<group>"; };
 		9349E593087C81FEBCB625036FC8A56D /* UIImage+MaterialRTL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MaterialRTL.m"; path = "Sources/UIImage+MaterialRTL.m"; sourceTree = "<group>"; };
 		93874B3B236273C421E69F20F5406D22 /* MDCOverlayObserverOverlay.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCOverlayObserverOverlay.m; path = components/private/Overlay/src/private/MDCOverlayObserverOverlay.m; sourceTree = "<group>"; };
@@ -1710,7 +1710,7 @@
 		95935E30788D2636E6745FC09A97B296 /* MDCBottomAppBarAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomAppBarAttributes.h; path = components/BottomAppBar/src/private/MDCBottomAppBarAttributes.h; sourceTree = "<group>"; };
 		95DEE02048C925767C8A50F39DAAD75F /* ResourceBundle-MaterialIcons_ic_arrow_back-MaterialComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MaterialIcons_ic_arrow_back-MaterialComponents-Info.plist"; sourceTree = "<group>"; };
 		95E78846656425DDCF1266E9F33F2430 /* MDCOutlinedTextField+MaterialTheming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCOutlinedTextField+MaterialTheming.h"; path = "components/TextControls/src/OutlinedTextFieldsTheming/MDCOutlinedTextField+MaterialTheming.h"; sourceTree = "<group>"; };
-		96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialComponents-MaterialIcons_ic_help_outline */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_help_outline"; path = MaterialIcons_ic_help_outline.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialIcons_ic_help_outline.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_help_outline.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EA03EC9CA3DE2E4B474B4DC0400CFB /* MDCShapeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCShapeCategory.h; path = components/schemes/Shape/src/MDCShapeCategory.h; sourceTree = "<group>"; };
 		96EE3F44BE816137C1E425BC2944DA16 /* MDCCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCollectionViewLayoutAttributes.m; path = components/CollectionLayoutAttributes/src/MDCCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
 		97C9A6A8F56E69EDC34F4C41D2F4A236 /* MDCFeatureHighlightView+Private.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MDCFeatureHighlightView+Private.m"; path = "components/FeatureHighlight/src/private/MDCFeatureHighlightView+Private.m"; sourceTree = "<group>"; };
@@ -1719,13 +1719,13 @@
 		997BE9CA1C74EC712348B4B54115125F /* MDCTextInputControllerFullWidth.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextInputControllerFullWidth.m; path = components/TextFields/src/MDCTextInputControllerFullWidth.m; sourceTree = "<group>"; };
 		99CA16027814BCF91FD6D4B7E79BD164 /* MDCIcons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCIcons.h; path = components/private/Icons/src/MDCIcons.h; sourceTree = "<group>"; };
 		9A083BB7671E0678ADC68C82590063CD /* MDCStatefulRippleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCStatefulRippleView.m; path = components/Ripple/src/MDCStatefulRippleView.m; sourceTree = "<group>"; };
-		9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MDFInternationalization; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDFInternationalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AE3C71839BE3D25F6661A7088EAAFE8 /* MaterialPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MaterialPageControl.h; path = components/PageControl/src/MaterialPageControl.h; sourceTree = "<group>"; };
 		9B1D4351EF3106914D022A30FDD6BB18 /* MDCCollectionViewFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCCollectionViewFlowLayout.m; path = components/Collections/src/MDCCollectionViewFlowLayout.m; sourceTree = "<group>"; };
 		9B21A48BA420227A5893724B50BBA801 /* MDCRippleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCRippleView.m; path = components/Ripple/src/MDCRippleView.m; sourceTree = "<group>"; };
 		9B2E24606465FEE2020CD3796ADA0DF4 /* MDMRepetition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDMRepetition.m; path = src/MDMRepetition.m; sourceTree = "<group>"; };
 		9B2FA2B53FCFFD87D50FB05AADA812B0 /* MDFInternationalization-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MDFInternationalization-Info.plist"; sourceTree = "<group>"; };
-		9B6725B782188F18CB76A740433F14E4 /* DropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCDF812AC7C55DD3C18632F319AFDC2 /* MDCFontScaler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCFontScaler.m; path = components/Typography/src/MDCFontScaler.m; sourceTree = "<group>"; };
 		9BF506508211B7A96E00434539CEBC35 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		9C23188849CAFCC0A8AC4CE04E51B4EB /* MDCTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextField.h; path = components/TextFields/src/MDCTextField.h; sourceTree = "<group>"; };
@@ -1740,7 +1740,7 @@
 		9D75CD57B8CECD3B88C0196726A158F2 /* MDCBottomAppBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomAppBarLayer.h; path = components/BottomAppBar/src/private/MDCBottomAppBarLayer.h; sourceTree = "<group>"; };
 		9D79B9709ADF12019EB3FF0BB398BB94 /* MDCNavigationBarColorThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCNavigationBarColorThemer.h; path = components/NavigationBar/src/ColorThemer/MDCNavigationBarColorThemer.h; sourceTree = "<group>"; };
 		9D854891725B036CB19A8131A24ED3B0 /* MDCCollectionViewEditing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCollectionViewEditing.h; path = components/Collections/src/MDCCollectionViewEditing.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DC75E5AC25E93C1C4B3F6DD5BBDDA61 /* MDCSnackbarError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSnackbarError.m; path = components/Snackbar/src/MDCSnackbarError.m; sourceTree = "<group>"; };
 		9E02D02AF6F3AC3A5F56BC2D8A2EC95B /* MDCActionSheetController+MaterialTheming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCActionSheetController+MaterialTheming.h"; path = "components/ActionSheet/src/Theming/MDCActionSheetController+MaterialTheming.h"; sourceTree = "<group>"; };
 		9E15086494B41038EAA6D023135195DA /* MDCAppBarNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCAppBarNavigationController.m; path = components/AppBar/src/MDCAppBarNavigationController.m; sourceTree = "<group>"; };
@@ -1758,7 +1758,7 @@
 		A2629415DF0F49191FC972C4BB0C8957 /* MDCTextControlGradientManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlGradientManager.m; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlGradientManager.m; sourceTree = "<group>"; };
 		A2D3F4E2C32DAB5A59DA61B075625E7D /* MaterialTypographyScheme+BasicFontScheme.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialTypographyScheme+BasicFontScheme.h"; path = "components/schemes/Typography/src/BasicFontScheme/MaterialTypographyScheme+BasicFontScheme.h"; sourceTree = "<group>"; };
 		A2F9C2EA5E761CFB70AB6989D0B9EF9C /* MDCTabBarUnderlineIndicatorTemplate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTabBarUnderlineIndicatorTemplate.m; path = components/Tabs/src/MDCTabBarUnderlineIndicatorTemplate.m; sourceTree = "<group>"; };
-		A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MaterialComponents; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MaterialComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3435944A67D470EFF52ACB20C2F5C5E /* MDCBottomSheetTransitionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomSheetTransitionController.h; path = components/BottomSheet/src/MDCBottomSheetTransitionController.h; sourceTree = "<group>"; };
 		A3752FA975F4FEA87EB2F12B057079E8 /* MDCAppBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCAppBar.h; path = components/AppBar/src/MDCAppBar.h; sourceTree = "<group>"; };
 		A3774AE86BF1BE75F7054238EA8A5F79 /* MDCUnderlinedTextField+MaterialTheming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MDCUnderlinedTextField+MaterialTheming.m"; path = "components/TextControls/src/UnderlinedTextFieldsTheming/MDCUnderlinedTextField+MaterialTheming.m"; sourceTree = "<group>"; };
@@ -1780,7 +1780,7 @@
 		A7E406455690036175B76BB642C8920C /* MDCTextInputControllerFilled+MaterialTheming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCTextInputControllerFilled+MaterialTheming.h"; path = "components/TextFields/src/Theming/MDCTextInputControllerFilled+MaterialTheming.h"; sourceTree = "<group>"; };
 		A8080FCCEE0A6EF7991104AB07756632 /* MDCHeaderStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCHeaderStackView.m; path = components/HeaderStackView/src/MDCHeaderStackView.m; sourceTree = "<group>"; };
 		A82B49AD1233D20E313FF64D5B40A821 /* MDCCollectionViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCCollectionViewController.h; path = components/Collections/src/MDCCollectionViewController.h; sourceTree = "<group>"; };
-		A839CC75AF71B92A54EEB16D9B2C6C4C /* MotionAnimator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MotionAnimator; path = MotionAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A839CC75AF71B92A54EEB16D9B2C6C4C /* MotionAnimator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionAnimator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83D8E0FB8DA9D7AA2D97DDC5E814C19 /* MaterialIcons+ic_reorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MaterialIcons+ic_reorder.m"; path = "components/private/Icons/icons/ic_reorder/src/MaterialIcons+ic_reorder.m"; sourceTree = "<group>"; };
 		A8B0CFC760C0DCB1B4C326AE39717289 /* MDCButton+Subclassing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCButton+Subclassing.h"; path = "components/Buttons/src/private/MDCButton+Subclassing.h"; sourceTree = "<group>"; };
 		A90DF2E5FC29FD8D067E3199640B4D57 /* MaterialComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MaterialComponents-Info.plist"; sourceTree = "<group>"; };
@@ -1816,7 +1816,7 @@
 		AF36C8E19D287BA191284908B7DE79F7 /* MDCBottomNavigationItemView+Testing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCBottomNavigationItemView+Testing.h"; path = "components/BottomNavigation/src/private/MDCBottomNavigationItemView+Testing.h"; sourceTree = "<group>"; };
 		AF5C2F13026B04357EF72C02932ED032 /* MDFColorCalculations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDFColorCalculations.m; path = src/private/MDFColorCalculations.m; sourceTree = "<group>"; };
 		AF8317BBEBF0610DECFB75152CCCE1BE /* UIView+MaterialElevationResponding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MaterialElevationResponding.h"; path = "components/Elevation/src/UIView+MaterialElevationResponding.h"; sourceTree = "<group>"; };
-		AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialComponents-MaterialIcons_ic_settings */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_settings"; path = MaterialIcons_ic_settings.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialIcons_ic_settings.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_settings.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03B326A908F40A4C4AB82205B4173CE /* MDCTextControlVerticalPositioningReferenceUnderlined.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCTextControlVerticalPositioningReferenceUnderlined.m; path = components/private/TextControlsPrivate/src/UnderlinedStyle/MDCTextControlVerticalPositioningReferenceUnderlined.m; sourceTree = "<group>"; };
 		B09FBAC5BE28D037BA52EBD7B860AEBC /* MDCBottomNavigationSystemDialogView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomNavigationSystemDialogView.m; path = components/BottomNavigation/src/private/MDCBottomNavigationSystemDialogView.m; sourceTree = "<group>"; };
 		B0F97541C56C8F2CACD0B6CD87E9BD0F /* MDCAppBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCAppBarViewController.m; path = components/AppBar/src/MDCAppBarViewController.m; sourceTree = "<group>"; };
@@ -1933,10 +1933,10 @@
 		CDB42E7074C98005A5D364112CEF5FF2 /* MDCBottomDrawerShadowedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomDrawerShadowedView.h; path = components/NavigationDrawer/src/private/MDCBottomDrawerShadowedView.h; sourceTree = "<group>"; };
 		CDB9AD43E80F72BD670D91B3B22636B2 /* MDCBottomAppBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomAppBarView.m; path = components/BottomAppBar/src/MDCBottomAppBarView.m; sourceTree = "<group>"; };
 		CE34507A926CF372052765ED20DF00C7 /* MDCTextControlStyleFilled.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlStyleFilled.h; path = components/private/TextControlsPrivate/src/FilledStyle/MDCTextControlStyleFilled.h; sourceTree = "<group>"; };
-		CE66BAA8E77D069DD1D10478616727F7 /* MaterialComponents-MaterialIcons_ic_reorder */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_reorder"; path = MaterialIcons_ic_reorder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE66BAA8E77D069DD1D10478616727F7 /* MaterialIcons_ic_reorder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_reorder.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC67852531EF521C0A8352627F57F2C /* MDCSelfSizingStereoCell+MaterialTheming.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MDCSelfSizingStereoCell+MaterialTheming.m"; path = "components/List/src/Theming/MDCSelfSizingStereoCell+MaterialTheming.m"; sourceTree = "<group>"; };
 		CF2284919BB0F6940A2E186CB76764A1 /* MDCBottomSheetPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCBottomSheetPresentationController.m; path = components/BottomSheet/src/MDCBottomSheetPresentationController.m; sourceTree = "<group>"; };
-		CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialComponents-MaterialIcons_ic_check */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_check"; path = MaterialIcons_ic_check.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialIcons_ic_check.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_check.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04DEE910FF6D8DBCEC394A55CBD66C7 /* MDCFlexibleHeaderMinMaxHeightDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFlexibleHeaderMinMaxHeightDelegate.h; path = components/FlexibleHeader/src/private/MDCFlexibleHeaderMinMaxHeightDelegate.h; sourceTree = "<group>"; };
 		D054F412CA15FACAB57FBA406693A6C9 /* MDCIntrinsicHeightTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCIntrinsicHeightTextView.m; path = components/TextFields/src/MDCIntrinsicHeightTextView.m; sourceTree = "<group>"; };
 		D0679C009669A7FFBE65206D6B88CB6B /* MDCFeatureHighlightColorThemer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCFeatureHighlightColorThemer.m; path = components/FeatureHighlight/src/ColorThemer/MDCFeatureHighlightColorThemer.m; sourceTree = "<group>"; };
@@ -2026,7 +2026,7 @@
 		E6419F6CF371BA4A8FD792BB116A94F3 /* MDCFlexibleHeaderHairline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFlexibleHeaderHairline.h; path = components/FlexibleHeader/src/private/MDCFlexibleHeaderHairline.h; sourceTree = "<group>"; };
 		E6768963B8E8CBB365C5C5BDBF2F74F8 /* MDCSnackbarOverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSnackbarOverlayView.h; path = components/Snackbar/src/private/MDCSnackbarOverlayView.h; sourceTree = "<group>"; };
 		E690505BE2AE6D498D5C12A16AD82395 /* MDCSliderDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSliderDelegate.h; path = components/Slider/src/MDCSliderDelegate.h; sourceTree = "<group>"; };
-		E6CD78CC114C7DA3559A815976540E00 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_radio_button_unchecked"; path = MaterialIcons_ic_radio_button_unchecked.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6CD78CC114C7DA3559A815976540E00 /* MaterialIcons_ic_radio_button_unchecked.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_radio_button_unchecked.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E5C420E9AD6F51E148471B879FE23E /* MaterialFlexibleHeader+ShiftBehaviorEnabledWithStatusBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MaterialFlexibleHeader+ShiftBehaviorEnabledWithStatusBar.h"; path = "components/FlexibleHeader/src/ShiftBehaviorEnabledWithStatusBar/MaterialFlexibleHeader+ShiftBehaviorEnabledWithStatusBar.h"; sourceTree = "<group>"; };
 		E7034DDE5D979F637F6D8E459E82C565 /* MDCTextControlHorizontalPositioning.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextControlHorizontalPositioning.h; path = components/private/TextControlsPrivate/src/Shared/MDCTextControlHorizontalPositioning.h; sourceTree = "<group>"; };
 		E79652A7D10C127101B29732ED997639 /* MDCEdgeTreatment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCEdgeTreatment.h; path = components/Shapes/src/MDCEdgeTreatment.h; sourceTree = "<group>"; };
@@ -2064,7 +2064,7 @@
 		F12B9EF0656E3FFF268BFC312D012A98 /* MDCBottomDrawerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCBottomDrawerViewController.h; path = components/NavigationDrawer/src/MDCBottomDrawerViewController.h; sourceTree = "<group>"; };
 		F1375FCE12CEA2B7681A2537BAD6B0E8 /* MDCFontTextStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCFontTextStyle.h; path = components/Typography/src/MDCFontTextStyle.h; sourceTree = "<group>"; };
 		F1427D194D43EEDF5900347FEE10FBF7 /* MDCTabBarExtendedAlignment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarExtendedAlignment.h; path = components/Tabs/src/ExtendedAlignment/MDCTabBarExtendedAlignment.h; sourceTree = "<group>"; };
-		F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialComponents-MaterialIcons_ic_info */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "MaterialComponents-MaterialIcons_ic_info"; path = MaterialIcons_ic_info.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialIcons_ic_info.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaterialIcons_ic_info.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		F170E9DF59ABB51EC201DF3B15C55E3D /* UICollectionViewController+MDCCardReordering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionViewController+MDCCardReordering.h"; path = "components/Cards/src/UICollectionViewController+MDCCardReordering.h"; sourceTree = "<group>"; };
 		F175D03CDCD2C43E1C644C8E53D547A6 /* MDCPageControlIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPageControlIndicator.m; path = components/PageControl/src/private/MDCPageControlIndicator.m; sourceTree = "<group>"; };
 		F18C4C405C7EDC250AA5988E86D53F7A /* MDCItemBarBadge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCItemBarBadge.h; path = components/Tabs/src/private/MDCItemBarBadge.h; sourceTree = "<group>"; };
@@ -2111,7 +2111,7 @@
 		FA6CD912293EFA9E8B6A2D864D4F3467 /* MDCTextButtonThemer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTextButtonThemer.h; path = components/Buttons/src/ButtonThemer/MDCTextButtonThemer.h; sourceTree = "<group>"; };
 		FAAC65C7DD30E09E60DD0085ECA3D21A /* MDCLibraryInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCLibraryInfo.h; path = components/LibraryInfo/src/MDCLibraryInfo.h; sourceTree = "<group>"; };
 		FB1C5A1F83893CDA688A1A38E539090F /* UIView+MaterialRTL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MaterialRTL.h"; path = "Sources/UIView+MaterialRTL.h"; sourceTree = "<group>"; };
-		FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MDFTextAccessibility; path = MDFTextAccessibility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MDFTextAccessibility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBCF34C293D9158869857DC338A2C038 /* MDCTabBarDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCTabBarDelegate.h; path = components/Tabs/src/MDCTabBarDelegate.h; sourceTree = "<group>"; };
 		FC74EE55F8A54457267E7FBABEE43E37 /* MDCFloatingButton+MaterialTheming.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MDCFloatingButton+MaterialTheming.h"; path = "components/Buttons/src/Theming/MDCFloatingButton+MaterialTheming.h"; sourceTree = "<group>"; };
 		FC789AF5D2486D6572719036BF3E6C0D /* MDCNavigationBarTypographyThemer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCNavigationBarTypographyThemer.m; path = components/NavigationBar/src/TypographyThemer/MDCNavigationBarTypographyThemer.m; sourceTree = "<group>"; };
@@ -3008,7 +3008,6 @@
 				7D76FB0566FF69C462443FE59B57B1F4 /* UIView+MaterialRTL.m */,
 				C6D8D7B2DBAE72103452BC8626262928 /* Support Files */,
 			);
-			name = MDFInternationalization;
 			path = MDFInternationalization;
 			sourceTree = "<group>";
 		};
@@ -3461,7 +3460,6 @@
 				FD73D147F0815CF19F615DA13F9BB461 /* MotionInterchange.h */,
 				8CF8061BC53DFBE6D876C350B4DC4C9F /* Support Files */,
 			);
-			name = MotionInterchange;
 			path = MotionInterchange;
 			sourceTree = "<group>";
 		};
@@ -3600,7 +3598,6 @@
 				0F8AAB39EBF0E2C5364A58E85AAFB4A6 /* Themes */,
 				8D8B1BAF592EC25356E42E28DF75D96E /* Typography */,
 			);
-			name = MaterialComponents;
 			path = MaterialComponents;
 			sourceTree = "<group>";
 		};
@@ -3843,7 +3840,6 @@
 				3EBF27B292EB97392E3ABE3981EA052D /* MotionAnimator.h */,
 				04629E4D59D83497EF4F956EFB5C2366 /* Support Files */,
 			);
-			name = MotionAnimator;
 			path = MotionAnimator;
 			sourceTree = "<group>";
 		};
@@ -4252,7 +4248,6 @@
 				2618DFE99486028BEA4F1E69095ED12D /* NSArray+MDFUtils.m */,
 				55360B9B177C705698ADE94D340A313F /* Support Files */,
 			);
-			name = MDFTextAccessibility;
 			path = MDFTextAccessibility;
 			sourceTree = "<group>";
 		};
@@ -4370,24 +4365,24 @@
 		E4C17AB9BF02A63261279B1AEABE1FA0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9B6725B782188F18CB76A740433F14E4 /* DropDown */,
-				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */,
-				926DA190C7D642F031F184C79D52F1F7 /* MaterialComponents-MaterialIcons_ic_arrow_back */,
-				CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialComponents-MaterialIcons_ic_check */,
-				3CA6F19A19E2E67F5778834EA376B306 /* MaterialComponents-MaterialIcons_ic_check_circle */,
-				4CCEEB1F5197182DD68A40B485334326 /* MaterialComponents-MaterialIcons_ic_chevron_right */,
-				364A9280868DDB20F094AFF6D142D3BE /* MaterialComponents-MaterialIcons_ic_color_lens */,
-				428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialComponents-MaterialIcons_ic_feedback */,
-				96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialComponents-MaterialIcons_ic_help_outline */,
-				F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialComponents-MaterialIcons_ic_info */,
-				7E53D87E68BD50086D940E7306F624AC /* MaterialComponents-MaterialIcons_ic_more_horiz */,
-				E6CD78CC114C7DA3559A815976540E00 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked */,
-				CE66BAA8E77D069DD1D10478616727F7 /* MaterialComponents-MaterialIcons_ic_reorder */,
-				AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialComponents-MaterialIcons_ic_settings */,
-				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization */,
-				FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility */,
-				A839CC75AF71B92A54EEB16D9B2C6C4C /* MotionAnimator */,
-				3DB47A6C65F93C42BC5C238DBE91BBE8 /* MotionInterchange */,
+				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
+				A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */,
+				926DA190C7D642F031F184C79D52F1F7 /* MaterialIcons_ic_arrow_back.bundle */,
+				CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialIcons_ic_check.bundle */,
+				3CA6F19A19E2E67F5778834EA376B306 /* MaterialIcons_ic_check_circle.bundle */,
+				4CCEEB1F5197182DD68A40B485334326 /* MaterialIcons_ic_chevron_right.bundle */,
+				364A9280868DDB20F094AFF6D142D3BE /* MaterialIcons_ic_color_lens.bundle */,
+				428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialIcons_ic_feedback.bundle */,
+				96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialIcons_ic_help_outline.bundle */,
+				F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialIcons_ic_info.bundle */,
+				7E53D87E68BD50086D940E7306F624AC /* MaterialIcons_ic_more_horiz.bundle */,
+				E6CD78CC114C7DA3559A815976540E00 /* MaterialIcons_ic_radio_button_unchecked.bundle */,
+				CE66BAA8E77D069DD1D10478616727F7 /* MaterialIcons_ic_reorder.bundle */,
+				AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialIcons_ic_settings.bundle */,
+				9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */,
+				FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility.framework */,
+				A839CC75AF71B92A54EEB16D9B2C6C4C /* MotionAnimator.framework */,
+				3DB47A6C65F93C42BC5C238DBE91BBE8 /* MotionInterchange.framework */,
 				DB2D15FABA2EE15B59F4C16142C0AB85 /* Pods-CurrencyConverterExam */,
 			);
 			name = Products;
@@ -4537,7 +4532,6 @@
 				4E141B14747A45C66F533BD0F54582D6 /* Resources */,
 				2A310C2A5D06F38B0274F67FB6A10083 /* Support Files */,
 			);
-			name = DropDown;
 			path = DropDown;
 			sourceTree = "<group>";
 		};
@@ -5251,7 +5245,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_info";
 			productName = MaterialIcons_ic_info;
-			productReference = F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialComponents-MaterialIcons_ic_info */;
+			productReference = F15BB55F0AB78F8D7CFA48CC994EB861 /* MaterialIcons_ic_info.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		1F9F204A1CBA340DC643B7D0D3FE6252 /* MaterialComponents-MaterialIcons_ic_feedback */ = {
@@ -5268,7 +5262,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_feedback";
 			productName = MaterialIcons_ic_feedback;
-			productReference = 428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialComponents-MaterialIcons_ic_feedback */;
+			productReference = 428AAE4BE0565D6C97CB64B41AE3A7C9 /* MaterialIcons_ic_feedback.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		3CC3368A46441D43BCE095C25BC2D7AE /* MaterialComponents-MaterialIcons_ic_chevron_right */ = {
@@ -5285,7 +5279,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_chevron_right";
 			productName = MaterialIcons_ic_chevron_right;
-			productReference = 4CCEEB1F5197182DD68A40B485334326 /* MaterialComponents-MaterialIcons_ic_chevron_right */;
+			productReference = 4CCEEB1F5197182DD68A40B485334326 /* MaterialIcons_ic_chevron_right.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		468F85163B361F85512454772CED274B /* MaterialComponents-MaterialIcons_ic_color_lens */ = {
@@ -5302,7 +5296,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_color_lens";
 			productName = MaterialIcons_ic_color_lens;
-			productReference = 364A9280868DDB20F094AFF6D142D3BE /* MaterialComponents-MaterialIcons_ic_color_lens */;
+			productReference = 364A9280868DDB20F094AFF6D142D3BE /* MaterialIcons_ic_color_lens.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		54CD81ABAEB57D0B2D7E27F079FDFFB3 /* Pods-CurrencyConverterExam */ = {
@@ -5346,7 +5340,7 @@
 			);
 			name = MDFInternationalization;
 			productName = MDFInternationalization;
-			productReference = 9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization */;
+			productReference = 9A2AC0B8BAC6EF061EBC28825653DF99 /* MDFInternationalization.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		5EEF0A56C1241DBD9A8D33C3DFB63219 /* MaterialComponents-MaterialIcons_ic_more_horiz */ = {
@@ -5363,7 +5357,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_more_horiz";
 			productName = MaterialIcons_ic_more_horiz;
-			productReference = 7E53D87E68BD50086D940E7306F624AC /* MaterialComponents-MaterialIcons_ic_more_horiz */;
+			productReference = 7E53D87E68BD50086D940E7306F624AC /* MaterialIcons_ic_more_horiz.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		7F4022CD4249985E761F745058CAB372 /* MaterialComponents-MaterialIcons_ic_check_circle */ = {
@@ -5380,7 +5374,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_check_circle";
 			productName = MaterialIcons_ic_check_circle;
-			productReference = 3CA6F19A19E2E67F5778834EA376B306 /* MaterialComponents-MaterialIcons_ic_check_circle */;
+			productReference = 3CA6F19A19E2E67F5778834EA376B306 /* MaterialIcons_ic_check_circle.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		9A396D19079F48F8B3D75B45788F874B /* MotionInterchange */ = {
@@ -5398,7 +5392,7 @@
 			);
 			name = MotionInterchange;
 			productName = MotionInterchange;
-			productReference = 3DB47A6C65F93C42BC5C238DBE91BBE8 /* MotionInterchange */;
+			productReference = 3DB47A6C65F93C42BC5C238DBE91BBE8 /* MotionInterchange.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9C9E7E429B2D53CF57D71D51574F22F5 /* MaterialComponents-MaterialIcons_ic_settings */ = {
@@ -5415,7 +5409,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_settings";
 			productName = MaterialIcons_ic_settings;
-			productReference = AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialComponents-MaterialIcons_ic_settings */;
+			productReference = AF890D51B6A9F0AA11A6CE7E9EACECA2 /* MaterialIcons_ic_settings.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		A8E4C927B2E899954BC2FD3314BCA9DA /* MDFTextAccessibility */ = {
@@ -5433,7 +5427,7 @@
 			);
 			name = MDFTextAccessibility;
 			productName = MDFTextAccessibility;
-			productReference = FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility */;
+			productReference = FB8220FA4D9117310AEFC629A6EE4A08 /* MDFTextAccessibility.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B24C4ABA3ADA0FF95B5FF72A88774D2D /* MotionAnimator */ = {
@@ -5452,7 +5446,7 @@
 			);
 			name = MotionAnimator;
 			productName = MotionAnimator;
-			productReference = A839CC75AF71B92A54EEB16D9B2C6C4C /* MotionAnimator */;
+			productReference = A839CC75AF71B92A54EEB16D9B2C6C4C /* MotionAnimator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B4723B5744013DF08BE3A5FEAA286944 /* MaterialComponents */ = {
@@ -5485,7 +5479,7 @@
 			);
 			name = MaterialComponents;
 			productName = MaterialComponents;
-			productReference = A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents */;
+			productReference = A34157B3708EDB7D17422B3D92F591D2 /* MaterialComponents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B6960D8022B3AD71E1A5F7885D987A38 /* MaterialComponents-MaterialIcons_ic_check */ = {
@@ -5502,7 +5496,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_check";
 			productName = MaterialIcons_ic_check;
-			productReference = CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialComponents-MaterialIcons_ic_check */;
+			productReference = CFE61F6906BEFA486F87CB0FB8CDAD38 /* MaterialIcons_ic_check.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		DAAC6B090344D82AFBB9137B7CCE6D95 /* MaterialComponents-MaterialIcons_ic_help_outline */ = {
@@ -5519,7 +5513,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_help_outline";
 			productName = MaterialIcons_ic_help_outline;
-			productReference = 96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialComponents-MaterialIcons_ic_help_outline */;
+			productReference = 96911681D8CFE9AA3B0B929B95E27FA1 /* MaterialIcons_ic_help_outline.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		DF90696196F65237863CD68D1E0BF679 /* MaterialComponents-MaterialIcons_ic_arrow_back */ = {
@@ -5536,7 +5530,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_arrow_back";
 			productName = MaterialIcons_ic_arrow_back;
-			productReference = 926DA190C7D642F031F184C79D52F1F7 /* MaterialComponents-MaterialIcons_ic_arrow_back */;
+			productReference = 926DA190C7D642F031F184C79D52F1F7 /* MaterialIcons_ic_arrow_back.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E3B53EBD35B2477D60160EAE2ECBA3E0 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked */ = {
@@ -5553,7 +5547,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_radio_button_unchecked";
 			productName = MaterialIcons_ic_radio_button_unchecked;
-			productReference = E6CD78CC114C7DA3559A815976540E00 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked */;
+			productReference = E6CD78CC114C7DA3559A815976540E00 /* MaterialIcons_ic_radio_button_unchecked.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E562A73E10FFCE763B23186140ADF40B /* MaterialComponents-MaterialIcons_ic_reorder */ = {
@@ -5570,7 +5564,7 @@
 			);
 			name = "MaterialComponents-MaterialIcons_ic_reorder";
 			productName = MaterialIcons_ic_reorder;
-			productReference = CE66BAA8E77D069DD1D10478616727F7 /* MaterialComponents-MaterialIcons_ic_reorder */;
+			productReference = CE66BAA8E77D069DD1D10478616727F7 /* MaterialIcons_ic_reorder.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
@@ -5588,7 +5582,7 @@
 			);
 			name = DropDown;
 			productName = DropDown;
-			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown */;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -5598,7 +5592,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastUpgradeCheck = 1250;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 10.0";
@@ -5645,18 +5639,18 @@
 				EC559638DD041AC1CE0676558F87EA5B /* MaterialAppBar.bundle in Resources */,
 				9ED4BE89F20541F87C8EA2FB845CAB7E /* MaterialCollectionCells.bundle in Resources */,
 				0B4AE4B3E70F7BEE2AD81CDE57773DF8 /* MaterialCollections.bundle in Resources */,
-				AB415A2B45F54E3EEFD5EB5704B083BC /* MaterialComponents-MaterialIcons_ic_arrow_back in Resources */,
-				4BCEE1A7F1E5C2ACC87D285C949E5A03 /* MaterialComponents-MaterialIcons_ic_check in Resources */,
-				429F96D649B4321981F0DC90FD9CF1F9 /* MaterialComponents-MaterialIcons_ic_check_circle in Resources */,
-				860ECC0C7F3D363E7BE37320CABDA3CE /* MaterialComponents-MaterialIcons_ic_chevron_right in Resources */,
-				F9A949AF191D25341E42533BAF4894FC /* MaterialComponents-MaterialIcons_ic_color_lens in Resources */,
-				6543102BA5BF54A780651C8168932795 /* MaterialComponents-MaterialIcons_ic_feedback in Resources */,
-				C5762156301F61EA168BD049D424D81D /* MaterialComponents-MaterialIcons_ic_help_outline in Resources */,
-				AB614AEA12D554C6E7F466414ED04BB5 /* MaterialComponents-MaterialIcons_ic_info in Resources */,
-				F809DCB5DCBA82C7D2195EA25E21F0CF /* MaterialComponents-MaterialIcons_ic_more_horiz in Resources */,
-				F9E5E4A98EA9615AF8DC707E42892600 /* MaterialComponents-MaterialIcons_ic_radio_button_unchecked in Resources */,
-				CA8523A2D2F67E0F3929489D6A99FF28 /* MaterialComponents-MaterialIcons_ic_reorder in Resources */,
-				83BF7637F26D03ADF1D5D7DA8D6F11B3 /* MaterialComponents-MaterialIcons_ic_settings in Resources */,
+				AB415A2B45F54E3EEFD5EB5704B083BC /* MaterialIcons_ic_arrow_back.bundle in Resources */,
+				4BCEE1A7F1E5C2ACC87D285C949E5A03 /* MaterialIcons_ic_check.bundle in Resources */,
+				429F96D649B4321981F0DC90FD9CF1F9 /* MaterialIcons_ic_check_circle.bundle in Resources */,
+				860ECC0C7F3D363E7BE37320CABDA3CE /* MaterialIcons_ic_chevron_right.bundle in Resources */,
+				F9A949AF191D25341E42533BAF4894FC /* MaterialIcons_ic_color_lens.bundle in Resources */,
+				6543102BA5BF54A780651C8168932795 /* MaterialIcons_ic_feedback.bundle in Resources */,
+				C5762156301F61EA168BD049D424D81D /* MaterialIcons_ic_help_outline.bundle in Resources */,
+				AB614AEA12D554C6E7F466414ED04BB5 /* MaterialIcons_ic_info.bundle in Resources */,
+				F809DCB5DCBA82C7D2195EA25E21F0CF /* MaterialIcons_ic_more_horiz.bundle in Resources */,
+				F9E5E4A98EA9615AF8DC707E42892600 /* MaterialIcons_ic_radio_button_unchecked.bundle in Resources */,
+				CA8523A2D2F67E0F3929489D6A99FF28 /* MaterialIcons_ic_reorder.bundle in Resources */,
+				83BF7637F26D03ADF1D5D7DA8D6F11B3 /* MaterialIcons_ic_settings.bundle in Resources */,
 				C0259A95C30FBA70C1505A25B0DFEE13 /* MaterialDialogs.bundle in Resources */,
 				35D31E5700DF9BCFDFBB2511EC0C338A /* MaterialPageControl.bundle in Resources */,
 				58009D5E444E1C181467CEC89E6C39A8 /* MaterialProgressView.bundle in Resources */,
@@ -6430,7 +6424,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_check;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6455,7 +6449,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6482,7 +6476,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_settings-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_settings;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6498,7 +6492,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_feedback-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_feedback;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6514,7 +6508,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_more_horiz-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_more_horiz;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6530,7 +6524,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_color_lens-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_color_lens;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6546,7 +6540,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_settings-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_settings;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6562,7 +6556,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_more_horiz-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_more_horiz;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6578,7 +6572,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_info-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_info;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6602,7 +6596,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimator/MotionAnimator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MotionAnimator/MotionAnimator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6638,7 +6632,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MDFInternationalization/MDFInternationalization-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MDFInternationalization/MDFInternationalization-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6672,7 +6666,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MotionInterchange/MotionInterchange-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MotionInterchange/MotionInterchange-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6707,7 +6701,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MDFTextAccessibility/MDFTextAccessibility-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MDFTextAccessibility/MDFTextAccessibility-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6733,7 +6727,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_reorder-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_reorder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6749,7 +6743,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_check;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6765,7 +6759,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_arrow_back-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_arrow_back;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6781,7 +6775,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_feedback-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_feedback;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6797,7 +6791,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_chevron_right-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_chevron_right;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6813,7 +6807,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_reorder-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_reorder;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6829,7 +6823,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_help_outline-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_help_outline;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6853,7 +6847,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimator/MotionAnimator-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MotionAnimator/MotionAnimator-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6887,7 +6881,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MotionInterchange/MotionInterchange-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MotionInterchange/MotionInterchange-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6921,7 +6915,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MDFTextAccessibility/MDFTextAccessibility-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MDFTextAccessibility/MDFTextAccessibility-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -6948,7 +6942,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check_circle-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_check_circle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -6964,7 +6958,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_color_lens-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_color_lens;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7091,7 +7085,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -7218,7 +7212,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_radio_button_unchecked-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_radio_button_unchecked;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7242,7 +7236,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -7268,7 +7262,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_chevron_right-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_chevron_right;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7293,7 +7287,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -7319,7 +7313,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_help_outline-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_help_outline;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7344,7 +7338,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/MaterialComponents/MaterialComponents-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/MaterialComponents-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -7371,7 +7365,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_arrow_back-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_arrow_back;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7387,7 +7381,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_info-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_info;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7403,7 +7397,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_check_circle-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_check_circle;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -7419,7 +7413,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/MaterialComponents";
 				IBSC_MODULE = MaterialComponents;
 				INFOPLIST_FILE = "Target Support Files/MaterialComponents/ResourceBundle-MaterialIcons_ic_radio_button_unchecked-MaterialComponents-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = MaterialIcons_ic_radio_button_unchecked;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
